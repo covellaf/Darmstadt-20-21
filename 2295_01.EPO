@@ -1,0 +1,2204 @@
+                     COMMENT              INTEGRAL Low Wheel Speed Profile
+                     COMMENT              INTEGRAL
+                     COMMENT              Short Term PSF!
+                     COMMENT              PSF ICD version 02_60
+                     COMMENT              ROUTINE-SCIENCE-PHASE
+                     COMMENT              Non-Eclipse!
+                     COMMENT              PERIGEE_ENTRY flag 0 - No restriction on attitude
+                     COMMENT              POS ICD version 1.7, OSS version 46.0 Bilbo
+                     COMMENT              JEMX1 Active, JEMX2 Active
+                     COMMENT              Gap:2020-11-10T11:38:49Z 2020-11-10T12:36:47Z 3478s Before Handover window. After last pointing. 
+                     COMMENT              Gap:2020-11-10T12:51:47Z 2020-11-10T16:15:04Z 12197s After last pointing. 
+2020-11-08T02:36:26Z PSF_START            2295_01              /* Start of PSF for rrrr_vv, rrrr=revolution, vv=version
+2020-11-08T02:36:26Z POS_START            2295_01              /* Start of POS 
+2020-11-08T02:36:26Z EPOS_START           2295_01              /* Start of EPOS
+2020-11-08T03:13:39Z AOS_TM               KIRUNA               /* Acquisition of TM signal for KIRUNA
+2020-11-08T03:13:39Z AOS_TC               KIRUNA               /* Acquisition of TC signal for KIRUNA
+2020-11-08T03:13:39Z STATION_TM_START     KIRUNA               /* Start commanding station KIRUNA for TM
+2020-11-08T03:13:39Z STATION_TC_START     KIRUNA               /* Start commanding station KIRUNA for TC
+2020-11-08T03:13:39Z AOS_CHK_OPEN                              /* 01 Start of post-AOS status check window
+2020-11-08T03:13:39Z MOUT                                      "TM start KIRUNA                                    "
+2020-11-08T03:13:39Z MOUT                                      "AOS_CHK OPEN                                       "
+2020-11-08T03:14:17Z MOUT                                      "Initial Antenna is   1"
+2020-11-08T03:33:39Z ED                   GEBENT02             /* IBIS in Safe Configuration at Belts Entry (GEBENT02)
+2020-11-08T03:38:39Z ED                   JEDMP100             /* Report On-board SVM buffers(FCP_SYS_1100/FCP_SYS_1110)
+2020-11-08T03:43:39Z MOUT                                      "5 minutes to start of Wheel Bias opportunity       "
+2020-11-08T03:47:39Z ED                   UEGRON01             /* IREM Ground Link On (UEGRON01)
+2020-11-08T03:48:39Z AOS_CHK_CLOSE                             /* 01 End of post-AOS status check window
+2020-11-08T03:48:39Z SOPS_OPEN            WHEEL_BIAS           /* 01 Start of special S/C operations - NO wheel biasing
+                                          001                  /* Duration of stable pointing before man. in seconds
+                                          001                  /* Duration of stable pointing after man. in seconds
+2020-11-08T03:48:39Z ED                   AESAM_00             /* Startracker mapping (SAM) (FCP_AOC_0531)
+2020-11-08T03:48:39Z MOUT                                      "AOS_CHK CLOSE                                      "
+2020-11-08T03:58:39Z SOPS_CLOSE           WHEEL_BIAS           /* 01 End of special S/C operations - NO wheel biasing
+2020-11-08T03:58:39Z SATENG_OPEN                               /* Start of the satellite engineering window
+2020-11-08T03:58:39Z RPERIGEE_EXIT        10:40:00.00          /* 1st perigee attitude right ascension of STR boresight
+                                          -80:00:00.0          /* 1st perigee attitude declination of STR boresight
+                                          066:27:59.7          /* 1st perigee attitude position angle
+                                          09:20:00.00          /* 2nd perigee attitude right ascension of STR boresight
+                                          -30:00:00.0          /* 2nd perigee attitude declination of STR boresight
+                                          101:24:03.6          /* 2nd perigee attitude position angle
+2020-11-08T03:58:39Z FIRST_SLEW_START                          /* Earliest time to start slew from perigee attitude
+2020-11-08T03:58:39Z PERIGEE_EXIT         07:52:00.00          /* Perigee Exit RA
+                                          -30:00:00.0          /* Perigee Exit Dec
+                                          111:56:06.9          /* Perigee Exit Position Angle
+2020-11-08T03:58:39Z MOUT                                      "SATENG OPEN                                        "
+2020-11-08T03:58:39Z MOUT                                      "Execute step 3 FCP_GST_0006 (RFDN Safety TTAGS)    "
+2020-11-08T04:06:51Z STR_START            23000                /* Star Tracker operations may begin
+2020-11-08T04:06:51Z FIRST_SLEW_STOP                           /* Earliest time to stop slew from perigee attitude
+2020-11-08T04:20:02Z MOUT                                      "Earliest time to swap to 2"
+2020-11-08T04:33:39Z ED                   RET1OF00             /* Switch Off Transmitter 1 (FCP_RFS_1060)
+2020-11-08T04:34:09Z ED                   RET1ON00             /* Switch On Transmitter 1 (FCP_RFS_1060)
+2020-11-08T04:38:39Z SATENG_CLOSE                              /* End of the satellite engineering window
+2020-11-08T04:38:39Z DUMMY_OPEN           TM_AND_TC            /* 01 Start of Dummy Window
+2020-11-08T04:38:39Z MOUT                                      "SATENG CLOSE                                       "
+2020-11-08T04:47:54Z MOUT                                      "Imminent Antenna Switch to minus Z Antenna         "
+2020-11-08T04:51:54Z ED                   REANTX02             /* Select RFDN SWA Crossed Position (FCP_RFS_1101)
+2020-11-08T04:52:54Z MOUT                                      "Swap to 2"
+2020-11-08T05:39:43Z MOUT                                      "Latest time to swap to 2"
+2020-11-08T06:02:15Z DUMMY_CLOSE          TM_AND_TC            /* 01 End of Dummy window
+2020-11-08T06:02:15Z IBIS_CAL_OPEN                             /* 01 Start of Instrument IBIS Calibration
+2020-11-08T06:02:15Z ED                   GEISCL03             /* IBIS ISGRI Calibration (GEISCL03)
+2020-11-08T06:02:15Z MOUT                                      "Start of IBIS Calibration                          "
+2020-11-08T06:08:14Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T06:11:07Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T06:11:15Z ED                   KEACAL01             /* JEM-X1 Anode Electronic Cal at perigee exit (KEACAL01)
+2020-11-08T06:11:36Z PREQ                 07:48:36.27          /* RA of X axis
+                                          +24:59:38.4          /* Declination of X axis
+                                          098:54:21.3          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0200.0               /* Accelerator Time parameter
+                                          200.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950001             /* Pointing identifier
+2020-11-08T06:11:36Z MOUTP                SLEW_START           /* Slew Start
+                                          22950001             /* Slew Id
+                                          2020-11-08T06:11:36Z /* Scheduled time
+2020-11-08T06:11:36Z MOUT                                      "Start of slew 22950001, Pointing id = 0"
+2020-11-08T06:12:15Z ED                   LEACAL01             /* JEM-X2 Anode Electronic Cal at perigee exit (LEACAL01)
+2020-11-08T06:12:34Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950001
+2020-11-08T06:27:15Z IBIS_CAL_CLOSE                            /* 01 End of Instrument IBIS Calibration
+2020-11-08T06:27:15Z POST_BELT_CONF_OPEN                       /* 01 Start Instrument Configuration.
+2020-11-08T06:27:15Z CRIT_INST_ALT_ASC    50000                /* Critical Instrument Altitude Ascending
+2020-11-08T06:27:15Z MOUT                                      "CRIT_INST_ALT_ASC                                  "
+2020-11-08T06:31:54Z MOUTP                SLEW_END             /* Slew End
+                                          22950001             /* Slew Id
+                                          2020-11-08T06:31:54Z /* Scheduled time
+2020-11-08T06:31:54Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950001             /* Pointing Id
+                                                               /* Exposure Id
+                                          07:48:36.27          /* RA
+                                          +24:59:38.4          /* Dec
+                                          2020-11-08T06:31:54Z /* scheduled Time
+2020-11-08T06:31:54Z MOUT                                      "Pointing Identifier is 22950001 with duration 622"
+2020-11-08T06:31:58Z ED                   AESSS_00             /* Start Sun Steering Law (FCP_AOC_0804)
+2020-11-08T06:37:34Z ED                   MEBEXT01             /* OMC Reset ROE (MEBEXT01)
+2020-11-08T06:38:15Z ED                   DEBPG100             /* Load Broadcast Packet Group 1 data (FCP_DHS_1301)
+2020-11-08T06:38:54Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T06:39:15Z ED                   GEBEXT01             /* IBIS Reconfiguration after Belts Exit (GEBEXT01)
+2020-11-08T06:41:15Z ED                   DEBWLO00             /* Remove TM bandwidth for patch & dump (FCP_DHS_1255)
+2020-11-08T06:41:47Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T06:42:15Z POST_BELT_CONF_CLOSE                      /* 01 End Instrument Configuration.
+2020-11-08T06:42:15Z INSTRUMENT_OPEN      TM_AND_TC            /* 01 Start of observation window
+2020-11-08T06:42:15Z IBIS_START                                /* IBIS scientific observations may begin
+2020-11-08T06:42:15Z OMC_START                                 /* OMC scientific observations may begin
+2020-11-08T06:42:15Z SPI_START                                 /* SPI scientific observations may begin
+2020-11-08T06:42:15Z ED                   KEHVAC01             /* JEMX1 HV ON IN 1 STEP &
+2020-11-08T06:42:15Z ED                   LEHVAC01             /* JEMX2 HV ON IN 1 STEP &
+2020-11-08T06:42:16Z PREQ                 07:48:36.27          /* RA of X axis
+                                          +24:59:38.4          /* Declination of X axis
+                                          098:54:21.9          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950002             /* Pointing identifier
+2020-11-08T06:42:16Z MOUTP                SLEW_START           /* Slew Start
+                                          22950002             /* Slew Id
+                                          2020-11-08T06:42:16Z /* Scheduled time
+2020-11-08T06:42:16Z MOUT                                      "Start of slew 22950002, Pointing id = 0"
+2020-11-08T06:42:16Z ED                   DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-08T06:42:26Z ED                   GESTAN02             /* IBIS STANDARD MODE
+2020-11-08T06:42:31Z PSTREQ               39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-08T06:42:46Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T06:42:51Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T06:42:56Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T06:43:14Z MOUT                                      "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-08T06:43:14Z ED                   DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-08T06:45:15Z MOUTP                SLEW_END             /* Slew End
+                                          22950002             /* Slew Id
+                                          2020-11-08T06:45:15Z /* Scheduled time
+2020-11-08T06:45:15Z MOUT                                      "Start of exposure 22950001"
+2020-11-08T06:45:15Z MOUTP                EXP_START            /* Exposure Start
+                                          22950001             /* Exposure Id
+                                          2020-11-08T06:45:15Z /* Scheduled time
+                                          0001                 /* POD Version
+2020-11-08T06:45:15Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950002             /* Pointing Id
+                                          22950001             /* Exposure Id
+                                          07:48:36.27          /* RA
+                                          +24:59:38.4          /* Dec
+                                          2020-11-08T06:45:15Z /* scheduled Time
+2020-11-08T06:45:15Z MOUT                                      "Pointing Identifier is 22950002 with duration 900"
+2020-11-08T06:45:15Z ED                   DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-08T06:56:53Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T06:58:15Z JEM-X1_START                              /* JEM-X1 scientific observations may begin
+2020-11-08T06:58:15Z JEM-X2_START                              /* JEM-X2 scientific observations may begin
+2020-11-08T06:58:15Z ED                   KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-08T06:58:15Z ED                   LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-08T06:59:46Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T07:00:15Z MOUT                                      "End of exposure 22950001"
+2020-11-08T07:00:15Z MOUTP                EXP_END              /* Exposure End
+                                          22950001             /* Exposure Id
+                                          2020-11-08T07:00:15Z /* Scheduled time
+2020-11-08T07:00:15Z PREQ                 09:02:44.56          /* RA of X axis
+                                          +69:50:44.3          /* Declination of X axis
+                                          094:50:05.4          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0200.0               /* Accelerator Time parameter
+                                          200.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950003             /* Pointing identifier
+2020-11-08T07:00:15Z MOUTP                SLEW_START           /* Slew Start
+                                          22950003             /* Slew Id
+                                          2020-11-08T07:00:15Z /* Scheduled time
+2020-11-08T07:00:15Z MOUT                                      "Start of slew 22950003, Pointing id = 0"
+2020-11-08T07:01:13Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950003
+2020-11-08T07:18:31Z MOUTP                SLEW_END             /* Slew End
+                                          22950003             /* Slew Id
+                                          2020-11-08T07:18:31Z /* Scheduled time
+2020-11-08T07:18:31Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950003             /* Pointing Id
+                                                               /* Exposure Id
+                                          09:02:44.56          /* RA
+                                          +69:50:44.3          /* Dec
+                                          2020-11-08T07:18:31Z /* scheduled Time
+2020-11-08T07:18:31Z MOUT                                      "Pointing Identifier is 22950003 with duration 622"
+2020-11-08T07:18:36Z ED                   AESSS_00             /* Start Sun Steering Law (FCP_AOC_0804)
+2020-11-08T07:25:31Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T07:28:24Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T07:28:53Z PREQ                 09:02:44.56          /* RA of X axis
+                                          +69:50:44.3          /* Declination of X axis
+                                          094:49:39.1          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950004             /* Pointing identifier
+2020-11-08T07:28:53Z MOUTP                SLEW_START           /* Slew Start
+                                          22950004             /* Slew Id
+                                          2020-11-08T07:28:53Z /* Scheduled time
+2020-11-08T07:28:53Z MOUT                                      "Start of slew 22950004, Pointing id = 0"
+2020-11-08T07:28:53Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-08T07:28:53Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-08T07:29:03Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-08T07:29:08Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-08T07:29:23Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-08T07:29:23Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-08T07:29:23Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T07:29:28Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T07:29:33Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T07:29:51Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-08T07:29:51Z ED                   DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-08T07:31:52Z MOUTP                SLEW_END             /* Slew End
+                                          22950004             /* Slew Id
+                                          2020-11-08T07:31:52Z /* Scheduled time
+2020-11-08T07:31:52Z MOUT                                      "Start of exposure 22950002"
+2020-11-08T07:31:52Z MOUTP                EXP_START            /* Exposure Start
+                                          22950002             /* Exposure Id
+                                          2020-11-08T07:31:52Z /* Scheduled time
+                                          0001                 /* POD Version
+2020-11-08T07:31:52Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950004             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:02:44.56          /* RA
+                                          +69:50:44.3          /* Dec
+                                          2020-11-08T07:31:52Z /* scheduled Time
+2020-11-08T07:31:52Z MOUT                                      "Pointing Identifier is 22950004 with duration 3441"
+2020-11-08T07:31:52Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-08T07:36:52Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-08T07:48:39Z R_OBM                                     /* Report and reset the OBM
+2020-11-08T07:48:39Z MOUT                                      "REPORT AND RESET OBM                               "
+2020-11-08T08:25:51Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T08:28:44Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T08:29:13Z PREQ                 09:05:22.93          /* RA of X axis
+                                          +67:41:15.6          /* Declination of X axis
+                                          095:57:36.9          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950005             /* Pointing identifier
+2020-11-08T08:29:13Z MOUTP                SLEW_START           /* Slew Start
+                                          22950005             /* Slew Id
+                                          2020-11-08T08:29:13Z /* Scheduled time
+2020-11-08T08:29:13Z MOUT                                      "Start of slew 22950005, Pointing id = 0"
+2020-11-08T08:29:43Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T08:29:48Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T08:29:53Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T08:29:58Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-08T08:30:11Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950005
+2020-11-08T08:31:09Z MOUTP                SLEW_END             /* Slew End
+                                          22950005             /* Slew Id
+                                          2020-11-08T08:31:09Z /* Scheduled time
+2020-11-08T08:31:09Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950005             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:05:22.93          /* RA
+                                          +67:41:15.6          /* Dec
+                                          2020-11-08T08:31:09Z /* scheduled Time
+2020-11-08T08:31:09Z MOUT                                      "Pointing Identifier is 22950005 with duration 3441"
+2020-11-08T08:51:09Z RMU_START                                 /* Start RMU
+2020-11-08T08:56:09Z ED                   AEINT_00             /* Reset RCE Rate Integrator (FCP_AOC_1905)
+2020-11-08T09:06:09Z RMU_STOP                                  /* End RMU
+2020-11-08T09:25:08Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T09:28:01Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T09:28:30Z PREQ                 09:07:31.17          /* RA of X axis
+                                          +65:31:37.0          /* Declination of X axis
+                                          096:56:52.4          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950006             /* Pointing identifier
+2020-11-08T09:28:30Z MOUTP                SLEW_START           /* Slew Start
+                                          22950006             /* Slew Id
+                                          2020-11-08T09:28:30Z /* Scheduled time
+2020-11-08T09:28:30Z MOUT                                      "Start of slew 22950006, Pointing id = 0"
+2020-11-08T09:29:00Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T09:29:05Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T09:29:10Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T09:29:28Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950006
+2020-11-08T09:30:41Z MOUTP                SLEW_END             /* Slew End
+                                          22950006             /* Slew Id
+                                          2020-11-08T09:30:41Z /* Scheduled time
+2020-11-08T09:30:41Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950006             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:07:31.17          /* RA
+                                          +65:31:37.0          /* Dec
+                                          2020-11-08T09:30:41Z /* scheduled Time
+2020-11-08T09:30:41Z MOUT                                      "Pointing Identifier is 22950006 with duration 3441"
+2020-11-08T10:24:40Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T10:27:33Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T10:28:02Z PREQ                 09:05:22.93          /* RA of X axis
+                                          +67:41:15.6          /* Declination of X axis
+                                          095:53:50.3          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950007             /* Pointing identifier
+2020-11-08T10:28:02Z MOUTP                SLEW_START           /* Slew Start
+                                          22950007             /* Slew Id
+                                          2020-11-08T10:28:02Z /* Scheduled time
+2020-11-08T10:28:02Z MOUT                                      "Start of slew 22950007, Pointing id = 0"
+2020-11-08T10:28:32Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T10:28:37Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T10:28:42Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T10:28:47Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-08T10:29:00Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950007
+2020-11-08T10:30:14Z MOUTP                SLEW_END             /* Slew End
+                                          22950007             /* Slew Id
+                                          2020-11-08T10:30:14Z /* Scheduled time
+2020-11-08T10:30:14Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950007             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:05:22.93          /* RA
+                                          +67:41:15.6          /* Dec
+                                          2020-11-08T10:30:14Z /* scheduled Time
+2020-11-08T10:30:14Z MOUT                                      "Pointing Identifier is 22950007 with duration 3441"
+2020-11-08T10:58:39Z RSOPS                RMU_CAL              /* Recommended mid-time of SOPS window for RMU cal.
+                                          900                  /* Duration of RSOPS window in seconds
+                                          7200                 /* Possible offset in seconds
+2020-11-08T11:24:13Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T11:27:06Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T11:27:35Z PREQ                 09:02:44.56          /* RA of X axis
+                                          +69:50:44.3          /* Declination of X axis
+                                          094:41:49.4          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950008             /* Pointing identifier
+2020-11-08T11:27:35Z MOUTP                SLEW_START           /* Slew Start
+                                          22950008             /* Slew Id
+                                          2020-11-08T11:27:35Z /* Scheduled time
+2020-11-08T11:27:35Z MOUT                                      "Start of slew 22950008, Pointing id = 0"
+2020-11-08T11:28:05Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T11:28:10Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T11:28:15Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T11:28:33Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950008
+2020-11-08T11:29:31Z MOUTP                SLEW_END             /* Slew End
+                                          22950008             /* Slew Id
+                                          2020-11-08T11:29:31Z /* Scheduled time
+2020-11-08T11:29:31Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950008             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:02:44.56          /* RA
+                                          +69:50:44.3          /* Dec
+                                          2020-11-08T11:29:31Z /* scheduled Time
+2020-11-08T11:29:31Z MOUT                                      "Pointing Identifier is 22950008 with duration 3441"
+2020-11-08T12:23:30Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T12:26:23Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T12:26:52Z PREQ                 08:59:25.33          /* RA of X axis
+                                          +71:59:59.5          /* Declination of X axis
+                                          093:18:09.2          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950009             /* Pointing identifier
+2020-11-08T12:26:52Z MOUTP                SLEW_START           /* Slew Start
+                                          22950009             /* Slew Id
+                                          2020-11-08T12:26:52Z /* Scheduled time
+2020-11-08T12:26:52Z MOUT                                      "Start of slew 22950009, Pointing id = 0"
+2020-11-08T12:27:22Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T12:27:27Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T12:27:32Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T12:27:50Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950009
+2020-11-08T12:29:04Z MOUTP                SLEW_END             /* Slew End
+                                          22950009             /* Slew Id
+                                          2020-11-08T12:29:04Z /* Scheduled time
+2020-11-08T12:29:04Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950009             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          08:59:25.33          /* RA
+                                          +71:59:59.5          /* Dec
+                                          2020-11-08T12:29:04Z /* scheduled Time
+2020-11-08T12:29:04Z MOUT                                      "Pointing Identifier is 22950009 with duration 3441"
+2020-11-08T12:33:34Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-08T12:33:35Z CCCF_ED              DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T12:34:04Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-08T12:34:14Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-08T12:34:19Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-08T12:34:34Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-08T12:34:34Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-08T12:35:02Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-08T12:35:02Z CCCF_ED              DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-08T12:36:04Z CCCF_MOUT                                 "Start of exposure 22950002"
+2020-11-08T12:36:04Z CCCF_MOUTP           EXP_INT              /* Intermediate commanding of Exposure
+                                          22950002             /* Exposure identifier
+                                          2020-11-08T12:36:04Z /* Scheduled time
+                                          0001                 /* POD Version
+                                          0001                 /* Intermediate number
+2020-11-08T12:36:04Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-08T12:41:04Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-08T13:23:03Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T13:25:56Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T13:26:25Z PREQ                 08:55:08.75          /* RA of X axis
+                                          +74:08:55.5          /* Declination of X axis
+                                          091:38:44.7          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950010             /* Pointing identifier
+2020-11-08T13:26:25Z MOUTP                SLEW_START           /* Slew Start
+                                          22950010             /* Slew Id
+                                          2020-11-08T13:26:25Z /* Scheduled time
+2020-11-08T13:26:25Z MOUT                                      "Start of slew 22950010, Pointing id = 0"
+2020-11-08T13:26:55Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T13:27:00Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T13:27:05Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T13:27:10Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-08T13:27:23Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950010
+2020-11-08T13:28:37Z MOUTP                SLEW_END             /* Slew End
+                                          22950010             /* Slew Id
+                                          2020-11-08T13:28:37Z /* Scheduled time
+2020-11-08T13:28:37Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950010             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          08:55:08.75          /* RA
+                                          +74:08:55.5          /* Dec
+                                          2020-11-08T13:28:37Z /* scheduled Time
+2020-11-08T13:28:37Z MOUT                                      "Pointing Identifier is 22950010 with duration 3441"
+2020-11-08T14:22:36Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T14:25:29Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T14:25:58Z PREQ                 09:27:01.07          /* RA of X axis
+                                          +74:19:48.2          /* Declination of X axis
+                                          099:08:56.3          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950011             /* Pointing identifier
+2020-11-08T14:25:58Z MOUTP                SLEW_START           /* Slew Start
+                                          22950011             /* Slew Id
+                                          2020-11-08T14:25:58Z /* Scheduled time
+2020-11-08T14:25:58Z MOUT                                      "Start of slew 22950011, Pointing id = 0"
+2020-11-08T14:26:28Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T14:26:33Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T14:26:38Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T14:26:43Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-08T14:26:56Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950011
+2020-11-08T14:28:10Z MOUTP                SLEW_END             /* Slew End
+                                          22950011             /* Slew Id
+                                          2020-11-08T14:28:10Z /* Scheduled time
+2020-11-08T14:28:10Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950011             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:27:01.07          /* RA
+                                          +74:19:48.2          /* Dec
+                                          2020-11-08T14:28:10Z /* scheduled Time
+2020-11-08T14:28:10Z MOUT                                      "Pointing Identifier is 22950011 with duration 3441"
+2020-11-08T14:36:26Z MOUT                                      "Execute FCP_AOC_0540 within next 2 hours           "
+2020-11-08T15:22:09Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T15:25:02Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T15:25:31Z PREQ                 09:27:34.46          /* RA of X axis
+                                          +72:09:33.7          /* Declination of X axis
+                                          099:45:59.4          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950012             /* Pointing identifier
+2020-11-08T15:25:31Z MOUTP                SLEW_START           /* Slew Start
+                                          22950012             /* Slew Id
+                                          2020-11-08T15:25:31Z /* Scheduled time
+2020-11-08T15:25:31Z MOUT                                      "Start of slew 22950012, Pointing id = 0"
+2020-11-08T15:26:01Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T15:26:06Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T15:26:11Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T15:26:16Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-08T15:26:29Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950012
+2020-11-08T15:27:27Z MOUTP                SLEW_END             /* Slew End
+                                          22950012             /* Slew Id
+                                          2020-11-08T15:27:27Z /* Scheduled time
+2020-11-08T15:27:27Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950012             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:27:34.46          /* RA
+                                          +72:09:33.7          /* Dec
+                                          2020-11-08T15:27:27Z /* scheduled Time
+2020-11-08T15:27:27Z MOUT                                      "Pointing Identifier is 22950012 with duration 3441"
+2020-11-08T16:21:26Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T16:24:19Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T16:24:48Z PREQ                 09:27:58.78          /* RA of X axis
+                                          +69:59:18.9          /* Declination of X axis
+                                          100:19:39.3          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950013             /* Pointing identifier
+2020-11-08T16:24:48Z MOUTP                SLEW_START           /* Slew Start
+                                          22950013             /* Slew Id
+                                          2020-11-08T16:24:48Z /* Scheduled time
+2020-11-08T16:24:48Z MOUT                                      "Start of slew 22950013, Pointing id = 0"
+2020-11-08T16:25:18Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T16:25:23Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T16:25:28Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T16:25:46Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950013
+2020-11-08T16:27:00Z MOUTP                SLEW_END             /* Slew End
+                                          22950013             /* Slew Id
+                                          2020-11-08T16:27:00Z /* Scheduled time
+2020-11-08T16:27:00Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950013             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:27:58.78          /* RA
+                                          +69:59:18.9          /* Dec
+                                          2020-11-08T16:27:00Z /* scheduled Time
+2020-11-08T16:27:00Z MOUT                                      "Pointing Identifier is 22950013 with duration 3441"
+2020-11-08T17:20:59Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T17:23:52Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T17:24:21Z PREQ                 09:28:16.64          /* RA of X axis
+                                          +67:49:04.0          /* Declination of X axis
+                                          100:50:34.9          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950014             /* Pointing identifier
+2020-11-08T17:24:21Z MOUTP                SLEW_START           /* Slew Start
+                                          22950014             /* Slew Id
+                                          2020-11-08T17:24:21Z /* Scheduled time
+2020-11-08T17:24:21Z MOUT                                      "Start of slew 22950014, Pointing id = 0"
+2020-11-08T17:24:51Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T17:24:56Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T17:25:01Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T17:25:06Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-08T17:25:19Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950014
+2020-11-08T17:26:33Z MOUTP                SLEW_END             /* Slew End
+                                          22950014             /* Slew Id
+                                          2020-11-08T17:26:33Z /* Scheduled time
+2020-11-08T17:26:33Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950014             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:28:16.64          /* RA
+                                          +67:49:04.0          /* Dec
+                                          2020-11-08T17:26:33Z /* scheduled Time
+2020-11-08T17:26:33Z MOUT                                      "Pointing Identifier is 22950014 with duration 3441"
+2020-11-08T17:31:03Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-08T17:31:04Z CCCF_ED              DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T17:31:33Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-08T17:31:43Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-08T17:31:48Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-08T17:32:03Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-08T17:32:03Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-08T17:32:31Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-08T17:32:31Z CCCF_ED              DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-08T17:33:33Z CCCF_MOUT                                 "Start of exposure 22950002"
+2020-11-08T17:33:33Z CCCF_MOUTP           EXP_INT              /* Intermediate commanding of Exposure
+                                          22950002             /* Exposure identifier
+                                          2020-11-08T17:33:33Z /* Scheduled time
+                                          0001                 /* POD Version
+                                          0002                 /* Intermediate number
+2020-11-08T17:33:33Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-08T17:38:33Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-08T18:20:32Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T18:23:25Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T18:23:54Z PREQ                 09:28:29.79          /* RA of X axis
+                                          +65:38:49.1          /* Declination of X axis
+                                          101:19:11.3          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950015             /* Pointing identifier
+2020-11-08T18:23:54Z MOUTP                SLEW_START           /* Slew Start
+                                          22950015             /* Slew Id
+                                          2020-11-08T18:23:54Z /* Scheduled time
+2020-11-08T18:23:54Z MOUT                                      "Start of slew 22950015, Pointing id = 0"
+2020-11-08T18:24:24Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T18:24:29Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T18:24:34Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T18:24:52Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950015
+2020-11-08T18:26:06Z MOUTP                SLEW_END             /* Slew End
+                                          22950015             /* Slew Id
+                                          2020-11-08T18:26:06Z /* Scheduled time
+2020-11-08T18:26:06Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950015             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:28:29.79          /* RA
+                                          +65:38:49.1          /* Dec
+                                          2020-11-08T18:26:06Z /* scheduled Time
+2020-11-08T18:26:06Z MOUT                                      "Pointing Identifier is 22950015 with duration 3441"
+2020-11-08T19:20:05Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T19:22:58Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T19:23:27Z PREQ                 09:49:30.97          /* RA of X axis
+                                          +65:34:45.8          /* Declination of X axis
+                                          105:58:10.8          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950016             /* Pointing identifier
+2020-11-08T19:23:27Z MOUTP                SLEW_START           /* Slew Start
+                                          22950016             /* Slew Id
+                                          2020-11-08T19:23:27Z /* Scheduled time
+2020-11-08T19:23:27Z MOUT                                      "Start of slew 22950016, Pointing id = 0"
+2020-11-08T19:23:57Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T19:24:02Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T19:24:07Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T19:24:25Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950016
+2020-11-08T19:25:39Z MOUTP                SLEW_END             /* Slew End
+                                          22950016             /* Slew Id
+                                          2020-11-08T19:25:39Z /* Scheduled time
+2020-11-08T19:25:39Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950016             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:49:30.97          /* RA
+                                          +65:34:45.8          /* Dec
+                                          2020-11-08T19:25:39Z /* scheduled Time
+2020-11-08T19:25:39Z MOUT                                      "Pointing Identifier is 22950016 with duration 3441"
+2020-11-08T19:41:09Z RMU_START                                 /* Start RMU
+2020-11-08T19:46:09Z ED                   AEINT_00             /* Reset RCE Rate Integrator (FCP_AOC_1905)
+2020-11-08T19:48:39Z R_OBM                                     /* Report and reset the OBM
+2020-11-08T19:48:39Z MOUT                                      "REPORT AND RESET OBM                               "
+2020-11-08T19:56:09Z RMU_STOP                                  /* End RMU
+2020-11-08T20:19:38Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T20:22:31Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T20:23:00Z PREQ                 09:51:13.66          /* RA of X axis
+                                          +67:44:36.7          /* Declination of X axis
+                                          105:57:03.5          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950017             /* Pointing identifier
+2020-11-08T20:23:00Z MOUTP                SLEW_START           /* Slew Start
+                                          22950017             /* Slew Id
+                                          2020-11-08T20:23:00Z /* Scheduled time
+2020-11-08T20:23:00Z MOUT                                      "Start of slew 22950017, Pointing id = 0"
+2020-11-08T20:23:30Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T20:23:35Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T20:23:40Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T20:23:45Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-08T20:23:58Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950017
+2020-11-08T20:25:12Z MOUTP                SLEW_END             /* Slew End
+                                          22950017             /* Slew Id
+                                          2020-11-08T20:25:12Z /* Scheduled time
+2020-11-08T20:25:12Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950017             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:51:13.66          /* RA
+                                          +67:44:36.7          /* Dec
+                                          2020-11-08T20:25:12Z /* scheduled Time
+2020-11-08T20:25:12Z MOUT                                      "Pointing Identifier is 22950017 with duration 3441"
+2020-11-08T21:19:11Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T21:22:04Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T21:22:33Z PREQ                 09:53:17.38          /* RA of X axis
+                                          +69:54:22.9          /* Declination of X axis
+                                          105:59:49.3          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950018             /* Pointing identifier
+2020-11-08T21:22:33Z MOUTP                SLEW_START           /* Slew Start
+                                          22950018             /* Slew Id
+                                          2020-11-08T21:22:33Z /* Scheduled time
+2020-11-08T21:22:33Z MOUT                                      "Start of slew 22950018, Pointing id = 0"
+2020-11-08T21:23:03Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T21:23:08Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T21:23:13Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T21:23:18Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-08T21:23:31Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950018
+2020-11-08T21:24:45Z MOUTP                SLEW_END             /* Slew End
+                                          22950018             /* Slew Id
+                                          2020-11-08T21:24:45Z /* Scheduled time
+2020-11-08T21:24:45Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950018             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:53:17.38          /* RA
+                                          +69:54:22.9          /* Dec
+                                          2020-11-08T21:24:45Z /* scheduled Time
+2020-11-08T21:24:45Z MOUT                                      "Pointing Identifier is 22950018 with duration 3441"
+2020-11-08T22:18:44Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T22:21:37Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T22:22:06Z PREQ                 09:55:49.72          /* RA of X axis
+                                          +72:04:02.5          /* Declination of X axis
+                                          106:08:23.6          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950019             /* Pointing identifier
+2020-11-08T22:22:06Z MOUTP                SLEW_START           /* Slew Start
+                                          22950019             /* Slew Id
+                                          2020-11-08T22:22:06Z /* Scheduled time
+2020-11-08T22:22:06Z MOUT                                      "Start of slew 22950019, Pointing id = 0"
+2020-11-08T22:22:36Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T22:22:41Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T22:22:46Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T22:22:51Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-08T22:23:04Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950019
+2020-11-08T22:24:18Z MOUTP                SLEW_END             /* Slew End
+                                          22950019             /* Slew Id
+                                          2020-11-08T22:24:18Z /* Scheduled time
+2020-11-08T22:24:18Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950019             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:55:49.72          /* RA
+                                          +72:04:02.5          /* Dec
+                                          2020-11-08T22:24:18Z /* scheduled Time
+2020-11-08T22:24:18Z MOUT                                      "Pointing Identifier is 22950019 with duration 3441"
+2020-11-08T22:28:48Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-08T22:28:49Z CCCF_ED              DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T22:29:18Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-08T22:29:28Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-08T22:29:33Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-08T22:29:48Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-08T22:29:48Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-08T22:30:16Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-08T22:30:16Z CCCF_ED              DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-08T22:31:18Z CCCF_MOUT                                 "Start of exposure 22950002"
+2020-11-08T22:31:18Z CCCF_MOUTP           EXP_INT              /* Intermediate commanding of Exposure
+                                          22950002             /* Exposure identifier
+                                          2020-11-08T22:31:18Z /* Scheduled time
+                                          0001                 /* POD Version
+                                          0003                 /* Intermediate number
+2020-11-08T22:31:18Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-08T22:36:18Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-08T23:18:17Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-08T23:21:10Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-08T23:21:39Z PREQ                 09:59:02.42          /* RA of X axis
+                                          +74:13:32.8          /* Declination of X axis
+                                          106:25:44.6          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950020             /* Pointing identifier
+2020-11-08T23:21:39Z MOUTP                SLEW_START           /* Slew Start
+                                          22950020             /* Slew Id
+                                          2020-11-08T23:21:39Z /* Scheduled time
+2020-11-08T23:21:39Z MOUT                                      "Start of slew 22950020, Pointing id = 0"
+2020-11-08T23:22:09Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-08T23:22:14Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-08T23:22:19Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-08T23:22:24Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-08T23:22:37Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950020
+2020-11-08T23:23:51Z MOUTP                SLEW_END             /* Slew End
+                                          22950020             /* Slew Id
+                                          2020-11-08T23:23:51Z /* Scheduled time
+2020-11-08T23:23:51Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950020             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          09:59:02.42          /* RA
+                                          +74:13:32.8          /* Dec
+                                          2020-11-08T23:23:51Z /* scheduled Time
+2020-11-08T23:23:51Z MOUT                                      "Pointing Identifier is 22950020 with duration 3441"
+2020-11-08T23:48:39Z RSOPS                RMU_CAL              /* Recommended mid-time of SOPS window for RMU cal.
+                                          900                  /* Duration of RSOPS window in seconds
+                                          14400                /* Possible offset in seconds
+2020-11-09T00:17:50Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T00:20:43Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T00:21:12Z PREQ                 10:30:07.38          /* RA of X axis
+                                          +73:50:29.4          /* Declination of X axis
+                                          113:46:22.0          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950021             /* Pointing identifier
+2020-11-09T00:21:12Z MOUTP                SLEW_START           /* Slew Start
+                                          22950021             /* Slew Id
+                                          2020-11-09T00:21:12Z /* Scheduled time
+2020-11-09T00:21:12Z MOUT                                      "Start of slew 22950021, Pointing id = 0"
+2020-11-09T00:21:42Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T00:21:47Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T00:21:52Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T00:22:10Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950021
+2020-11-09T00:23:24Z MOUTP                SLEW_END             /* Slew End
+                                          22950021             /* Slew Id
+                                          2020-11-09T00:23:24Z /* Scheduled time
+2020-11-09T00:23:24Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950021             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          10:30:07.38          /* RA
+                                          +73:50:29.4          /* Dec
+                                          2020-11-09T00:23:24Z /* scheduled Time
+2020-11-09T00:23:24Z MOUT                                      "Pointing Identifier is 22950021 with duration 3441"
+2020-11-09T01:17:23Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T01:20:16Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T01:20:45Z PREQ                 10:23:26.26          /* RA of X axis
+                                          +71:43:39.6          /* Declination of X axis
+                                          112:30:26.0          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950022             /* Pointing identifier
+2020-11-09T01:20:45Z MOUTP                SLEW_START           /* Slew Start
+                                          22950022             /* Slew Id
+                                          2020-11-09T01:20:45Z /* Scheduled time
+2020-11-09T01:20:45Z MOUT                                      "Start of slew 22950022, Pointing id = 0"
+2020-11-09T01:21:15Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T01:21:20Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T01:21:25Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T01:21:30Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T01:21:43Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950022
+2020-11-09T01:22:57Z MOUTP                SLEW_END             /* Slew End
+                                          22950022             /* Slew Id
+                                          2020-11-09T01:22:57Z /* Scheduled time
+2020-11-09T01:22:57Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950022             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          10:23:26.26          /* RA
+                                          +71:43:39.6          /* Dec
+                                          2020-11-09T01:22:57Z /* scheduled Time
+2020-11-09T01:22:57Z MOUT                                      "Pointing Identifier is 22950022 with duration 3441"
+2020-11-09T02:16:56Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T02:19:49Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T02:20:18Z PREQ                 10:18:08.22          /* RA of X axis
+                                          +69:36:06.0          /* Declination of X axis
+                                          111:34:12.8          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950023             /* Pointing identifier
+2020-11-09T02:20:18Z MOUTP                SLEW_START           /* Slew Start
+                                          22950023             /* Slew Id
+                                          2020-11-09T02:20:18Z /* Scheduled time
+2020-11-09T02:20:18Z MOUT                                      "Start of slew 22950023, Pointing id = 0"
+2020-11-09T02:20:48Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T02:20:53Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T02:20:58Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T02:21:03Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T02:21:16Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950023
+2020-11-09T02:22:30Z MOUTP                SLEW_END             /* Slew End
+                                          22950023             /* Slew Id
+                                          2020-11-09T02:22:30Z /* Scheduled time
+2020-11-09T02:22:30Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950023             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          10:18:08.22          /* RA
+                                          +69:36:06.0          /* Dec
+                                          2020-11-09T02:22:30Z /* scheduled Time
+2020-11-09T02:22:30Z MOUT                                      "Pointing Identifier is 22950023 with duration 3441"
+2020-11-09T03:16:29Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T03:19:22Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T03:19:51Z PREQ                 10:13:50.07          /* RA of X axis
+                                          +67:28:00.9          /* Declination of X axis
+                                          110:51:53.2          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950024             /* Pointing identifier
+2020-11-09T03:19:51Z MOUTP                SLEW_START           /* Slew Start
+                                          22950024             /* Slew Id
+                                          2020-11-09T03:19:51Z /* Scheduled time
+2020-11-09T03:19:51Z MOUT                                      "Start of slew 22950024, Pointing id = 0"
+2020-11-09T03:20:21Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T03:20:26Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T03:20:31Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T03:20:36Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T03:20:49Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950024
+2020-11-09T03:22:03Z MOUTP                SLEW_END             /* Slew End
+                                          22950024             /* Slew Id
+                                          2020-11-09T03:22:03Z /* Scheduled time
+2020-11-09T03:22:03Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950024             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          10:13:50.07          /* RA
+                                          +67:28:00.9          /* Dec
+                                          2020-11-09T03:22:03Z /* scheduled Time
+2020-11-09T03:22:03Z MOUT                                      "Pointing Identifier is 22950024 with duration 3441"
+2020-11-09T03:26:33Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-09T03:26:34Z CCCF_ED              DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T03:27:03Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-09T03:27:13Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-09T03:27:18Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-09T03:27:33Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-09T03:27:33Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-09T03:28:01Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-09T03:28:01Z CCCF_ED              DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-09T03:29:03Z CCCF_MOUT                                 "Start of exposure 22950002"
+2020-11-09T03:29:03Z CCCF_MOUTP           EXP_INT              /* Intermediate commanding of Exposure
+                                          22950002             /* Exposure identifier
+                                          2020-11-09T03:29:03Z /* Scheduled time
+                                          0001                 /* POD Version
+                                          0004                 /* Intermediate number
+2020-11-09T03:29:03Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-09T03:34:03Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-09T04:16:02Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T04:18:55Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T04:19:24Z PREQ                 10:10:16.41          /* RA of X axis
+                                          +65:19:32.7          /* Declination of X axis
+                                          110:19:34.9          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950025             /* Pointing identifier
+2020-11-09T04:19:24Z MOUTP                SLEW_START           /* Slew Start
+                                          22950025             /* Slew Id
+                                          2020-11-09T04:19:24Z /* Scheduled time
+2020-11-09T04:19:24Z MOUT                                      "Start of slew 22950025, Pointing id = 0"
+2020-11-09T04:19:54Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T04:19:59Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T04:20:04Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T04:20:09Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T04:20:22Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950025
+2020-11-09T04:21:36Z MOUTP                SLEW_END             /* Slew End
+                                          22950025             /* Slew Id
+                                          2020-11-09T04:21:36Z /* Scheduled time
+2020-11-09T04:21:36Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950025             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          10:10:16.41          /* RA
+                                          +65:19:32.7          /* Dec
+                                          2020-11-09T04:21:36Z /* scheduled Time
+2020-11-09T04:21:36Z MOUT                                      "Pointing Identifier is 22950025 with duration 3441"
+2020-11-09T05:15:35Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T05:18:28Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T05:18:57Z PREQ                 10:30:29.18          /* RA of X axis
+                                          +64:53:30.1          /* Declination of X axis
+                                          114:48:58.1          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950026             /* Pointing identifier
+2020-11-09T05:18:57Z MOUTP                SLEW_START           /* Slew Start
+                                          22950026             /* Slew Id
+                                          2020-11-09T05:18:57Z /* Scheduled time
+2020-11-09T05:18:57Z MOUT                                      "Start of slew 22950026, Pointing id = 0"
+2020-11-09T05:19:27Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T05:19:32Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T05:19:37Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T05:19:42Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T05:19:55Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950026
+2020-11-09T05:21:09Z MOUTP                SLEW_END             /* Slew End
+                                          22950026             /* Slew Id
+                                          2020-11-09T05:21:09Z /* Scheduled time
+2020-11-09T05:21:09Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950026             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          10:30:29.18          /* RA
+                                          +64:53:30.1          /* Dec
+                                          2020-11-09T05:21:09Z /* scheduled Time
+2020-11-09T05:21:09Z MOUT                                      "Pointing Identifier is 22950026 with duration 3441"
+2020-11-09T06:15:08Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T06:18:01Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T06:18:30Z PREQ                 10:35:44.13          /* RA of X axis
+                                          +66:59:43.1          /* Declination of X axis
+                                          115:44:59.6          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950027             /* Pointing identifier
+2020-11-09T06:18:30Z MOUTP                SLEW_START           /* Slew Start
+                                          22950027             /* Slew Id
+                                          2020-11-09T06:18:30Z /* Scheduled time
+2020-11-09T06:18:30Z MOUT                                      "Start of slew 22950027, Pointing id = 0"
+2020-11-09T06:19:00Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T06:19:05Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T06:19:10Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T06:19:15Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T06:19:28Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950027
+2020-11-09T06:20:42Z MOUTP                SLEW_END             /* Slew End
+                                          22950027             /* Slew Id
+                                          2020-11-09T06:20:42Z /* Scheduled time
+2020-11-09T06:20:42Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950027             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          10:35:44.13          /* RA
+                                          +66:59:43.1          /* Dec
+                                          2020-11-09T06:20:42Z /* scheduled Time
+2020-11-09T06:20:42Z MOUT                                      "Pointing Identifier is 22950027 with duration 3441"
+2020-11-09T07:14:41Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T07:17:34Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T07:18:03Z PREQ                 10:42:02.70          /* RA of X axis
+                                          +69:05:03.4          /* Declination of X axis
+                                          116:55:36.5          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950028             /* Pointing identifier
+2020-11-09T07:18:03Z MOUTP                SLEW_START           /* Slew Start
+                                          22950028             /* Slew Id
+                                          2020-11-09T07:18:03Z /* Scheduled time
+2020-11-09T07:18:03Z MOUT                                      "Start of slew 22950028, Pointing id = 0"
+2020-11-09T07:18:33Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T07:18:38Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T07:18:43Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T07:18:48Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T07:19:01Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950028
+2020-11-09T07:19:59Z MOUTP                SLEW_END             /* Slew End
+                                          22950028             /* Slew Id
+                                          2020-11-09T07:19:59Z /* Scheduled time
+2020-11-09T07:19:59Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950028             /* Pointing Id
+                                          22950002             /* Exposure Id
+                                          10:42:02.70          /* RA
+                                          +69:05:03.4          /* Dec
+                                          2020-11-09T07:19:59Z /* scheduled Time
+2020-11-09T07:19:59Z MOUT                                      "Pointing Identifier is 22950028 with duration 3441"
+2020-11-09T07:48:39Z R_OBM                                     /* Report and reset the OBM
+2020-11-09T07:48:39Z MOUT                                      "REPORT AND RESET OBM                               "
+2020-11-09T08:13:58Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T08:16:51Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T08:17:20Z MOUT                                      "End of exposure 22950002"
+2020-11-09T08:17:20Z MOUTP                EXP_END              /* Exposure End
+                                          22950002             /* Exposure Id
+                                          2020-11-09T08:17:20Z /* Scheduled time
+2020-11-09T08:17:20Z PREQ                 07:56:25.82          /* RA of X axis
+                                          -05:05:50.8          /* Declination of X axis
+                                          108:49:50.6          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0200.0               /* Accelerator Time parameter
+                                          200.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950029             /* Pointing identifier
+2020-11-09T08:17:20Z MOUTP                SLEW_START           /* Slew Start
+                                          22950029             /* Slew Id
+                                          2020-11-09T08:17:20Z /* Scheduled time
+2020-11-09T08:17:20Z MOUT                                      "Start of slew 22950029, Pointing id = 0"
+2020-11-09T08:18:18Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950029
+2020-11-09T08:45:09Z MOUTP                SLEW_END             /* Slew End
+                                          22950029             /* Slew Id
+                                          2020-11-09T08:45:09Z /* Scheduled time
+2020-11-09T08:45:09Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950029             /* Pointing Id
+                                                               /* Exposure Id
+                                          07:56:25.82          /* RA
+                                          -05:05:50.8          /* Dec
+                                          2020-11-09T08:45:09Z /* scheduled Time
+2020-11-09T08:45:09Z MOUT                                      "Pointing Identifier is 22950029 with duration 622"
+2020-11-09T08:45:14Z ED                   AESSS_00             /* Start Sun Steering Law (FCP_AOC_0804)
+2020-11-09T08:52:09Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T08:55:02Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T08:55:31Z PREQ                 07:56:25.82          /* RA of X axis
+                                          -05:05:50.8          /* Declination of X axis
+                                          108:50:05.7          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950030             /* Pointing identifier
+2020-11-09T08:55:31Z MOUTP                SLEW_START           /* Slew Start
+                                          22950030             /* Slew Id
+                                          2020-11-09T08:55:31Z /* Scheduled time
+2020-11-09T08:55:31Z MOUT                                      "Start of slew 22950030, Pointing id = 0"
+2020-11-09T08:55:31Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-09T08:55:31Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-09T08:55:41Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-09T08:55:46Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-09T08:56:01Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-09T08:56:01Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-09T08:56:01Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T08:56:06Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T08:56:11Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T08:56:29Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-09T08:56:29Z ED                   DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-09T08:58:30Z MOUTP                SLEW_END             /* Slew End
+                                          22950030             /* Slew Id
+                                          2020-11-09T08:58:30Z /* Scheduled time
+2020-11-09T08:58:30Z MOUT                                      "Start of exposure 22950003"
+2020-11-09T08:58:30Z MOUTP                EXP_START            /* Exposure Start
+                                          22950003             /* Exposure Id
+                                          2020-11-09T08:58:30Z /* Scheduled time
+                                          0001                 /* POD Version
+2020-11-09T08:58:30Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950030             /* Pointing Id
+                                          22950003             /* Exposure Id
+                                          07:56:25.82          /* RA
+                                          -05:05:50.8          /* Dec
+                                          2020-11-09T08:58:30Z /* scheduled Time
+2020-11-09T08:58:30Z MOUT                                      "Pointing Identifier is 22950030 with duration 900"
+2020-11-09T08:58:30Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-09T09:03:30Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-09T09:10:08Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T09:13:01Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T09:13:30Z MOUT                                      "End of exposure 22950003"
+2020-11-09T09:13:30Z MOUTP                EXP_END              /* Exposure End
+                                          22950003             /* Exposure Id
+                                          2020-11-09T09:13:30Z /* Scheduled time
+2020-11-09T09:13:30Z PREQ                 21:42:13.62          /* RA of X axis
+                                          -87:11:05.9          /* Declination of X axis
+                                          260:32:55.8          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0200.0               /* Accelerator Time parameter
+                                          200.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950031             /* Pointing identifier
+2020-11-09T09:13:30Z MOUTP                SLEW_START           /* Slew Start
+                                          22950031             /* Slew Id
+                                          2020-11-09T09:13:30Z /* Scheduled time
+2020-11-09T09:13:30Z MOUT                                      "Start of slew 22950031, Pointing id = 0"
+2020-11-09T09:14:28Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950031
+2020-11-09T09:43:06Z MOUTP                SLEW_END             /* Slew End
+                                          22950031             /* Slew Id
+                                          2020-11-09T09:43:06Z /* Scheduled time
+2020-11-09T09:43:06Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950031             /* Pointing Id
+                                                               /* Exposure Id
+                                          21:42:13.62          /* RA
+                                          -87:11:05.9          /* Dec
+                                          2020-11-09T09:43:06Z /* scheduled Time
+2020-11-09T09:43:06Z MOUT                                      "Pointing Identifier is 22950031 with duration 622"
+2020-11-09T09:43:10Z ED                   AESSS_00             /* Start Sun Steering Law (FCP_AOC_0804)
+2020-11-09T09:50:06Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T09:52:59Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T09:53:28Z PREQ                 21:42:13.62          /* RA of X axis
+                                          -87:11:05.9          /* Declination of X axis
+                                          260:33:28.3          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950032             /* Pointing identifier
+2020-11-09T09:53:28Z MOUTP                SLEW_START           /* Slew Start
+                                          22950032             /* Slew Id
+                                          2020-11-09T09:53:28Z /* Scheduled time
+2020-11-09T09:53:28Z MOUT                                      "Start of slew 22950032, Pointing id = 0"
+2020-11-09T09:53:28Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-09T09:53:28Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-09T09:53:38Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-09T09:53:43Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-09T09:53:58Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-09T09:53:58Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-09T09:53:58Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T09:54:03Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T09:54:08Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T09:54:13Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T09:54:26Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-09T09:54:26Z ED                   DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-09T09:56:27Z MOUTP                SLEW_END             /* Slew End
+                                          22950032             /* Slew Id
+                                          2020-11-09T09:56:27Z /* Scheduled time
+2020-11-09T09:56:27Z MOUT                                      "Start of exposure 22950004"
+2020-11-09T09:56:27Z MOUTP                EXP_START            /* Exposure Start
+                                          22950004             /* Exposure Id
+                                          2020-11-09T09:56:27Z /* Scheduled time
+                                          0001                 /* POD Version
+2020-11-09T09:56:27Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950032             /* Pointing Id
+                                          22950004             /* Exposure Id
+                                          21:42:13.62          /* RA
+                                          -87:11:05.9          /* Dec
+                                          2020-11-09T09:56:27Z /* scheduled Time
+2020-11-09T09:56:27Z MOUT                                      "Pointing Identifier is 22950032 with duration 3530"
+2020-11-09T09:56:27Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-09T10:01:27Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-09T10:51:55Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T10:54:48Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T10:55:17Z PREQ                 18:44:38.82          /* RA of X axis
+                                          -87:04:31.8          /* Declination of X axis
+                                          305:02:16.1          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950033             /* Pointing identifier
+2020-11-09T10:55:17Z MOUTP                SLEW_START           /* Slew Start
+                                          22950033             /* Slew Id
+                                          2020-11-09T10:55:17Z /* Scheduled time
+2020-11-09T10:55:17Z MOUT                                      "Start of slew 22950033, Pointing id = 0"
+2020-11-09T10:55:47Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T10:55:52Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T10:55:57Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T10:56:02Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T10:56:15Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950033
+2020-11-09T10:57:29Z MOUTP                SLEW_END             /* Slew End
+                                          22950033             /* Slew Id
+                                          2020-11-09T10:57:29Z /* Scheduled time
+2020-11-09T10:57:29Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950033             /* Pointing Id
+                                          22950004             /* Exposure Id
+                                          18:44:38.82          /* RA
+                                          -87:04:31.8          /* Dec
+                                          2020-11-09T10:57:29Z /* scheduled Time
+2020-11-09T10:57:29Z MOUT                                      "Pointing Identifier is 22950033 with duration 3530"
+2020-11-09T11:36:26Z MOUT                                      "Execute FCP_AOC_0540 within next 2 hours           "
+2020-11-09T11:52:57Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T11:55:50Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T11:56:19Z MOUT                                      "End of exposure 22950004"
+2020-11-09T11:56:19Z MOUTP                EXP_END              /* Exposure End
+                                          22950004             /* Exposure Id
+                                          2020-11-09T11:56:19Z /* Scheduled time
+2020-11-09T11:56:19Z PREQ                 15:53:10.47          /* RA of X axis
+                                          -88:41:09.3          /* Declination of X axis
+                                          348:39:10.7          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950034             /* Pointing identifier
+2020-11-09T11:56:19Z MOUTP                SLEW_START           /* Slew Start
+                                          22950034             /* Slew Id
+                                          2020-11-09T11:56:19Z /* Scheduled time
+2020-11-09T11:56:19Z MOUT                                      "Start of slew 22950034, Pointing id = 0"
+2020-11-09T11:56:19Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-09T11:56:19Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-09T11:56:29Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-09T11:56:34Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-09T11:56:49Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-09T11:56:49Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-09T11:56:49Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T11:56:54Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T11:56:59Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T11:57:04Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T11:57:17Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-09T11:57:17Z ED                   DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-09T11:58:30Z MOUTP                SLEW_END             /* Slew End
+                                          22950034             /* Slew Id
+                                          2020-11-09T11:58:30Z /* Scheduled time
+2020-11-09T11:58:30Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-09T12:03:30Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-09T12:05:57Z ED                   DEBPG200             /* Broadcast Packet Handover flag = 1
+2020-11-09T12:06:26Z HO_PERIOD_START                           /* HANDOVER PERIOD DURING INSTRUMENT WINDOW - START
+2020-11-09T12:06:26Z OVERLAP_START        KIRUNA               /* Overlap period at Kiruna for antenna unwind
+                                          KIRUNA               /*
+2020-11-09T12:06:26Z RHANDOVER_START      KIRUNA               /* Handover period at Kiruna for antenna unwind
+                                          KIRUNA               /*
+2020-11-09T12:06:26Z MOUT                                      "Start of Ground Station Handover Window"
+2020-11-09T12:06:26Z HANDOVER_START       KIRUNA               /* Ground station handover from KIRUNA to KIRUNA
+                                          KIRUNA               /*
+2020-11-09T12:13:55Z MOUT                                      "TM stop KIRUNA                                     "
+2020-11-09T12:13:56Z RSTATION_TC_START    KIRUNA               /* Start commanding station KIRUNA for TC
+2020-11-09T12:13:56Z RSTATION_TC_STOP     KIRUNA               /* End commanding station KIRUNA for TC
+2020-11-09T12:13:56Z RSTATION_TM_START    KIRUNA               /* Start commanding station KIRUNA for TM
+2020-11-09T12:13:56Z RSTATION_TM_STOP     KIRUNA               /* End commanding station KIRUNA for TM
+2020-11-09T12:13:56Z STATION_TC_STOP      KIRUNA               /* End of commanding station KIRUNA for TC
+2020-11-09T12:13:56Z STATION_TM_STOP      KIRUNA               /* End of commanding station KIRUNA for TM
+2020-11-09T12:13:56Z STATION_TC_START     KIRUNA               /* Start of commanding station KIRUNA for TC
+2020-11-09T12:13:56Z STATION_TM_START     KIRUNA               /* Start of commanding station KIRUNA for TM
+2020-11-09T12:13:56Z MOUT                                      "TM start KIRUNA                                    "
+2020-11-09T12:21:16Z ED                   DEBPG200             /* Broadcast Packet Handover flag = 0
+2020-11-09T12:21:26Z HO_PERIOD_STOP                            /* HANDOVER PERIOD DURING INSTRUMENT WINDOW - STOP
+2020-11-09T12:21:26Z RHANDOVER_STOP                            /* Handover period at Kiruna for antenna unwind
+2020-11-09T12:21:26Z OVERLAP_STOP         KIRUNA               /* Overlap period at Kiruna for antenna unwind
+                                          KIRUNA               /*
+2020-11-09T12:21:26Z MOUT                                      "End of Ground Station Handover Window"
+2020-11-09T12:21:26Z HANDOVER_STOP                             /* Ground station handover from KIRUNA to KIRUNA
+2020-11-09T12:21:26Z MOUT                                      "Start of exposure 22950005"
+2020-11-09T12:21:26Z MOUTP                EXP_START            /* Exposure Start
+                                          22950005             /* Exposure Id
+                                          2020-11-09T12:21:26Z /* Scheduled time
+                                          0001                 /* POD Version
+2020-11-09T12:21:26Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950034             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          15:53:10.47          /* RA
+                                          -88:41:09.3          /* Dec
+                                          2020-11-09T12:21:26Z /* scheduled Time
+2020-11-09T12:21:26Z MOUT                                      "Pointing Identifier is 22950034 with duration 3530"
+2020-11-09T12:21:26Z RMU_START                                 /* Start RMU
+2020-11-09T12:26:26Z ED                   AEINT_00             /* Reset RCE Rate Integrator (FCP_AOC_1905)
+2020-11-09T12:36:26Z RMU_STOP                                  /* End RMU
+2020-11-09T13:16:54Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T13:19:47Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T13:20:16Z PREQ                 10:48:42.01          /* RA of X axis
+                                          -87:55:52.2          /* Declination of X axis
+                                          065:29:36.6          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950035             /* Pointing identifier
+2020-11-09T13:20:16Z MOUTP                SLEW_START           /* Slew Start
+                                          22950035             /* Slew Id
+                                          2020-11-09T13:20:16Z /* Scheduled time
+2020-11-09T13:20:16Z MOUT                                      "Start of slew 22950035, Pointing id = 0"
+2020-11-09T13:20:46Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T13:20:51Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T13:20:56Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T13:21:01Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T13:21:14Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950035
+2020-11-09T13:22:12Z MOUTP                SLEW_END             /* Slew End
+                                          22950035             /* Slew Id
+                                          2020-11-09T13:22:12Z /* Scheduled time
+2020-11-09T13:22:12Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950035             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          10:48:42.01          /* RA
+                                          -87:55:52.2          /* Dec
+                                          2020-11-09T13:22:12Z /* scheduled Time
+2020-11-09T13:22:12Z MOUT                                      "Pointing Identifier is 22950035 with duration 3530"
+2020-11-09T14:17:40Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T14:20:33Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T14:21:02Z PREQ                 09:35:09.53          /* RA of X axis
+                                          -85:58:07.5          /* Declination of X axis
+                                          084:35:11.0          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950036             /* Pointing identifier
+2020-11-09T14:21:02Z MOUTP                SLEW_START           /* Slew Start
+                                          22950036             /* Slew Id
+                                          2020-11-09T14:21:02Z /* Scheduled time
+2020-11-09T14:21:02Z MOUT                                      "Start of slew 22950036, Pointing id = 0"
+2020-11-09T14:21:32Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T14:21:37Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T14:21:42Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T14:21:47Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T14:22:00Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950036
+2020-11-09T14:23:13Z MOUTP                SLEW_END             /* Slew End
+                                          22950036             /* Slew Id
+                                          2020-11-09T14:23:13Z /* Scheduled time
+2020-11-09T14:23:13Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950036             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          09:35:09.53          /* RA
+                                          -85:58:07.5          /* Dec
+                                          2020-11-09T14:23:13Z /* scheduled Time
+2020-11-09T14:23:13Z MOUT                                      "Pointing Identifier is 22950036 with duration 3530"
+2020-11-09T15:18:41Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T15:21:34Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T15:22:03Z PREQ                 09:10:55.54          /* RA of X axis
+                                          -83:51:53.4          /* Declination of X axis
+                                          091:20:12.1          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950037             /* Pointing identifier
+2020-11-09T15:22:03Z MOUTP                SLEW_START           /* Slew Start
+                                          22950037             /* Slew Id
+                                          2020-11-09T15:22:03Z /* Scheduled time
+2020-11-09T15:22:03Z MOUT                                      "Start of slew 22950037, Pointing id = 0"
+2020-11-09T15:22:33Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T15:22:38Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T15:22:43Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T15:22:48Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T15:23:01Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950037
+2020-11-09T15:23:59Z MOUTP                SLEW_END             /* Slew End
+                                          22950037             /* Slew Id
+                                          2020-11-09T15:23:59Z /* Scheduled time
+2020-11-09T15:23:59Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950037             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          09:10:55.54          /* RA
+                                          -83:51:53.4          /* Dec
+                                          2020-11-09T15:23:59Z /* scheduled Time
+2020-11-09T15:23:59Z MOUT                                      "Pointing Identifier is 22950037 with duration 3530"
+2020-11-09T16:08:47Z RSOPS                RMU_CAL              /* Recommended mid-time of SOPS window for RMU cal.
+                                          900                  /* Duration of RSOPS window in seconds
+                                          13191                /* Possible offset in seconds
+2020-11-09T16:19:27Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T16:22:20Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T16:22:49Z PREQ                 09:05:08.20          /* RA of X axis
+                                          -85:00:09.1          /* Declination of X axis
+                                          091:48:02.8          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950038             /* Pointing identifier
+2020-11-09T16:22:49Z MOUTP                SLEW_START           /* Slew Start
+                                          22950038             /* Slew Id
+                                          2020-11-09T16:22:49Z /* Scheduled time
+2020-11-09T16:22:49Z MOUT                                      "Start of slew 22950038, Pointing id = 0"
+2020-11-09T16:23:19Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T16:23:24Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T16:23:29Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T16:23:34Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T16:23:47Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950038
+2020-11-09T16:24:21Z MOUTP                SLEW_END             /* Slew End
+                                          22950038             /* Slew Id
+                                          2020-11-09T16:24:21Z /* Scheduled time
+2020-11-09T16:24:21Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950038             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          09:05:08.20          /* RA
+                                          -85:00:09.1          /* Dec
+                                          2020-11-09T16:24:21Z /* scheduled Time
+2020-11-09T16:24:21Z MOUT                                      "Pointing Identifier is 22950038 with duration 3530"
+2020-11-09T17:19:49Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T17:22:42Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T17:23:11Z PREQ                 09:37:38.96          /* RA of X axis
+                                          -87:06:10.4          /* Declination of X axis
+                                          083:04:04.6          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950039             /* Pointing identifier
+2020-11-09T17:23:11Z MOUTP                SLEW_START           /* Slew Start
+                                          22950039             /* Slew Id
+                                          2020-11-09T17:23:11Z /* Scheduled time
+2020-11-09T17:23:11Z MOUT                                      "Start of slew 22950039, Pointing id = 0"
+2020-11-09T17:23:41Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T17:23:46Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T17:23:51Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T17:23:56Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T17:24:09Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950039
+2020-11-09T17:25:07Z MOUTP                SLEW_END             /* Slew End
+                                          22950039             /* Slew Id
+                                          2020-11-09T17:25:07Z /* Scheduled time
+2020-11-09T17:25:07Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950039             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          09:37:38.96          /* RA
+                                          -87:06:10.4          /* Dec
+                                          2020-11-09T17:25:07Z /* scheduled Time
+2020-11-09T17:25:07Z MOUT                                      "Pointing Identifier is 22950039 with duration 3530"
+2020-11-09T17:29:37Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-09T17:29:38Z CCCF_ED              DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T17:30:07Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-09T17:30:17Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-09T17:30:22Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-09T17:30:37Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-09T17:30:37Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-09T17:31:05Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-09T17:31:05Z CCCF_ED              DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-09T17:32:07Z CCCF_MOUT                                 "Start of exposure 22950005"
+2020-11-09T17:32:07Z CCCF_MOUTP           EXP_INT              /* Intermediate commanding of Exposure
+                                          22950005             /* Exposure identifier
+                                          2020-11-09T17:32:07Z /* Scheduled time
+                                          0001                 /* POD Version
+                                          0001                 /* Intermediate number
+2020-11-09T17:32:07Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-09T17:37:07Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-09T18:20:35Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T18:23:28Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T18:23:57Z PREQ                 12:17:34.92          /* RA of X axis
+                                          -88:53:32.3          /* Declination of X axis
+                                          042:27:44.4          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950040             /* Pointing identifier
+2020-11-09T18:23:57Z MOUTP                SLEW_START           /* Slew Start
+                                          22950040             /* Slew Id
+                                          2020-11-09T18:23:57Z /* Scheduled time
+2020-11-09T18:23:57Z MOUT                                      "Start of slew 22950040, Pointing id = 0"
+2020-11-09T18:24:27Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T18:24:32Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T18:24:37Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T18:24:42Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T18:24:55Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950040
+2020-11-09T18:25:53Z MOUTP                SLEW_END             /* Slew End
+                                          22950040             /* Slew Id
+                                          2020-11-09T18:25:53Z /* Scheduled time
+2020-11-09T18:25:53Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950040             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          12:17:34.92          /* RA
+                                          -88:53:32.3          /* Dec
+                                          2020-11-09T18:25:53Z /* scheduled Time
+2020-11-09T18:25:53Z MOUT                                      "Pointing Identifier is 22950040 with duration 3530"
+2020-11-09T19:21:21Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T19:24:14Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T19:24:43Z PREQ                 18:17:32.78          /* RA of X axis
+                                          -88:08:08.3          /* Declination of X axis
+                                          311:49:53.8          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950041             /* Pointing identifier
+2020-11-09T19:24:43Z MOUTP                SLEW_START           /* Slew Start
+                                          22950041             /* Slew Id
+                                          2020-11-09T19:24:43Z /* Scheduled time
+2020-11-09T19:24:43Z MOUT                                      "Start of slew 22950041, Pointing id = 0"
+2020-11-09T19:25:13Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T19:25:18Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T19:25:23Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T19:25:28Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T19:25:41Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950041
+2020-11-09T19:26:55Z MOUTP                SLEW_END             /* Slew End
+                                          22950041             /* Slew Id
+                                          2020-11-09T19:26:55Z /* Scheduled time
+2020-11-09T19:26:55Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950041             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          18:17:32.78          /* RA
+                                          -88:08:08.3          /* Dec
+                                          2020-11-09T19:26:55Z /* scheduled Time
+2020-11-09T19:26:55Z MOUT                                      "Pointing Identifier is 22950041 with duration 3530"
+2020-11-09T19:48:39Z R_OBM                                     /* Report and reset the OBM
+2020-11-09T19:48:39Z MOUT                                      "REPORT AND RESET OBM                               "
+2020-11-09T20:22:23Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T20:25:16Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T20:25:45Z PREQ                 19:23:24.95          /* RA of X axis
+                                          -86:06:32.8          /* Declination of X axis
+                                          294:42:26.8          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950042             /* Pointing identifier
+2020-11-09T20:25:45Z MOUTP                SLEW_START           /* Slew Start
+                                          22950042             /* Slew Id
+                                          2020-11-09T20:25:45Z /* Scheduled time
+2020-11-09T20:25:45Z MOUT                                      "Start of slew 22950042, Pointing id = 0"
+2020-11-09T20:26:15Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T20:26:20Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T20:26:25Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T20:26:30Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T20:26:43Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950042
+2020-11-09T20:27:41Z MOUTP                SLEW_END             /* Slew End
+                                          22950042             /* Slew Id
+                                          2020-11-09T20:27:41Z /* Scheduled time
+2020-11-09T20:27:41Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950042             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          19:23:24.95          /* RA
+                                          -86:06:32.8          /* Dec
+                                          2020-11-09T20:27:41Z /* scheduled Time
+2020-11-09T20:27:41Z MOUT                                      "Pointing Identifier is 22950042 with duration 3530"
+2020-11-09T21:23:09Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T21:26:02Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T21:26:31Z PREQ                 21:31:49.55          /* RA of X axis
+                                          -86:02:26.5          /* Declination of X axis
+                                          262:36:45.4          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950043             /* Pointing identifier
+2020-11-09T21:26:31Z MOUTP                SLEW_START           /* Slew Start
+                                          22950043             /* Slew Id
+                                          2020-11-09T21:26:31Z /* Scheduled time
+2020-11-09T21:26:31Z MOUT                                      "Start of slew 22950043, Pointing id = 0"
+2020-11-09T21:27:01Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T21:27:06Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T21:27:11Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T21:27:16Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T21:27:29Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950043
+2020-11-09T21:28:43Z MOUTP                SLEW_END             /* Slew End
+                                          22950043             /* Slew Id
+                                          2020-11-09T21:28:43Z /* Scheduled time
+2020-11-09T21:28:43Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950043             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          21:31:49.55          /* RA
+                                          -86:02:26.5          /* Dec
+                                          2020-11-09T21:28:43Z /* scheduled Time
+2020-11-09T21:28:43Z MOUT                                      "Pointing Identifier is 22950043 with duration 3530"
+2020-11-09T22:24:11Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T22:27:04Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T22:27:33Z PREQ                 22:49:31.95          /* RA of X axis
+                                          -87:59:21.1          /* Declination of X axis
+                                          243:52:49.3          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950044             /* Pointing identifier
+2020-11-09T22:27:33Z MOUTP                SLEW_START           /* Slew Start
+                                          22950044             /* Slew Id
+                                          2020-11-09T22:27:33Z /* Scheduled time
+2020-11-09T22:27:33Z MOUT                                      "Start of slew 22950044, Pointing id = 0"
+2020-11-09T22:28:03Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T22:28:08Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T22:28:13Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T22:28:18Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T22:28:31Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950044
+2020-11-09T22:29:45Z MOUTP                SLEW_END             /* Slew End
+                                          22950044             /* Slew Id
+                                          2020-11-09T22:29:45Z /* Scheduled time
+2020-11-09T22:29:45Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950044             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          22:49:31.95          /* RA
+                                          -87:59:21.1          /* Dec
+                                          2020-11-09T22:29:45Z /* scheduled Time
+2020-11-09T22:29:45Z MOUT                                      "Pointing Identifier is 22950044 with duration 3530"
+2020-11-09T22:34:15Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-09T22:34:16Z CCCF_ED              DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T22:34:45Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-09T22:34:55Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-09T22:35:00Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-09T22:35:15Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-09T22:35:15Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-09T22:35:43Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-09T22:35:43Z CCCF_ED              DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-09T22:36:45Z CCCF_MOUT                                 "Start of exposure 22950005"
+2020-11-09T22:36:45Z CCCF_MOUTP           EXP_INT              /* Intermediate commanding of Exposure
+                                          22950005             /* Exposure identifier
+                                          2020-11-09T22:36:45Z /* Scheduled time
+                                          0001                 /* POD Version
+                                          0002                 /* Intermediate number
+2020-11-09T22:36:45Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-09T22:41:45Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-09T23:25:13Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-09T23:28:06Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-09T23:28:35Z PREQ                 04:00:33.59          /* RA of X axis
+                                          -88:39:21.9          /* Declination of X axis
+                                          166:48:11.1          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950045             /* Pointing identifier
+2020-11-09T23:28:35Z MOUTP                SLEW_START           /* Slew Start
+                                          22950045             /* Slew Id
+                                          2020-11-09T23:28:35Z /* Scheduled time
+2020-11-09T23:28:35Z MOUT                                      "Start of slew 22950045, Pointing id = 0"
+2020-11-09T23:29:05Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-09T23:29:10Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-09T23:29:15Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-09T23:29:20Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-09T23:29:33Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950045
+2020-11-09T23:30:46Z MOUTP                SLEW_END             /* Slew End
+                                          22950045             /* Slew Id
+                                          2020-11-09T23:30:46Z /* Scheduled time
+2020-11-09T23:30:46Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950045             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          04:00:33.59          /* RA
+                                          -88:39:21.9          /* Dec
+                                          2020-11-09T23:30:46Z /* scheduled Time
+2020-11-09T23:30:46Z MOUT                                      "Pointing Identifier is 22950045 with duration 3530"
+2020-11-10T00:26:14Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T00:29:07Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T00:29:36Z PREQ                 06:44:49.85          /* RA of X axis
+                                          -87:00:21.1          /* Declination of X axis
+                                          126:23:56.6          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950046             /* Pointing identifier
+2020-11-10T00:29:36Z MOUTP                SLEW_START           /* Slew Start
+                                          22950046             /* Slew Id
+                                          2020-11-10T00:29:36Z /* Scheduled time
+2020-11-10T00:29:36Z MOUT                                      "Start of slew 22950046, Pointing id = 0"
+2020-11-10T00:30:06Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T00:30:11Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T00:30:16Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T00:30:21Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-10T00:30:34Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950046
+2020-11-10T00:31:32Z MOUTP                SLEW_END             /* Slew End
+                                          22950046             /* Slew Id
+                                          2020-11-10T00:31:32Z /* Scheduled time
+2020-11-10T00:31:32Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950046             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          06:44:49.85          /* RA
+                                          -87:00:21.1          /* Dec
+                                          2020-11-10T00:31:32Z /* scheduled Time
+2020-11-10T00:31:32Z MOUT                                      "Pointing Identifier is 22950046 with duration 3530"
+2020-11-10T01:27:00Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T01:29:53Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T01:30:22Z PREQ                 07:25:16.82          /* RA of X axis
+                                          -84:56:53.8          /* Declination of X axis
+                                          116:56:01.9          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950047             /* Pointing identifier
+2020-11-10T01:30:22Z MOUTP                SLEW_START           /* Slew Start
+                                          22950047             /* Slew Id
+                                          2020-11-10T01:30:22Z /* Scheduled time
+2020-11-10T01:30:22Z MOUT                                      "Start of slew 22950047, Pointing id = 0"
+2020-11-10T01:30:52Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T01:30:57Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T01:31:02Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T01:31:07Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-10T01:31:20Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950047
+2020-11-10T01:32:18Z MOUTP                SLEW_END             /* Slew End
+                                          22950047             /* Slew Id
+                                          2020-11-10T01:32:18Z /* Scheduled time
+2020-11-10T01:32:18Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950047             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          07:25:16.82          /* RA
+                                          -84:56:53.8          /* Dec
+                                          2020-11-10T01:32:18Z /* scheduled Time
+2020-11-10T01:32:18Z MOUT                                      "Pointing Identifier is 22950047 with duration 3530"
+2020-11-10T02:27:46Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T02:30:39Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T02:31:08Z PREQ                 06:02:23.45          /* RA of X axis
+                                          -84:02:24.4          /* Declination of X axis
+                                          137:29:59.8          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950048             /* Pointing identifier
+2020-11-10T02:31:08Z MOUTP                SLEW_START           /* Slew Start
+                                          22950048             /* Slew Id
+                                          2020-11-10T02:31:08Z /* Scheduled time
+2020-11-10T02:31:08Z MOUT                                      "Start of slew 22950048, Pointing id = 0"
+2020-11-10T02:31:38Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T02:31:43Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T02:31:48Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T02:31:53Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-10T02:32:06Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950048
+2020-11-10T02:33:19Z MOUTP                SLEW_END             /* Slew End
+                                          22950048             /* Slew Id
+                                          2020-11-10T02:33:19Z /* Scheduled time
+2020-11-10T02:33:19Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950048             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          06:02:23.45          /* RA
+                                          -84:02:24.4          /* Dec
+                                          2020-11-10T02:33:19Z /* scheduled Time
+2020-11-10T02:33:19Z MOUT                                      "Pointing Identifier is 22950048 with duration 3530"
+2020-11-10T03:28:47Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T03:31:40Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T03:32:09Z PREQ                 04:56:27.90          /* RA of X axis
+                                          -85:38:43.0          /* Declination of X axis
+                                          153:27:40.1          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950049             /* Pointing identifier
+2020-11-10T03:32:09Z MOUTP                SLEW_START           /* Slew Start
+                                          22950049             /* Slew Id
+                                          2020-11-10T03:32:09Z /* Scheduled time
+2020-11-10T03:32:09Z MOUT                                      "Start of slew 22950049, Pointing id = 0"
+2020-11-10T03:32:39Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T03:32:44Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T03:32:49Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T03:32:54Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-10T03:33:07Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950049
+2020-11-10T03:34:05Z MOUTP                SLEW_END             /* Slew End
+                                          22950049             /* Slew Id
+                                          2020-11-10T03:34:05Z /* Scheduled time
+2020-11-10T03:34:05Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950049             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          04:56:27.90          /* RA
+                                          -85:38:43.0          /* Dec
+                                          2020-11-10T03:34:05Z /* scheduled Time
+2020-11-10T03:34:05Z MOUT                                      "Pointing Identifier is 22950049 with duration 3530"
+2020-11-10T03:38:35Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-10T03:38:36Z CCCF_ED              DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T03:39:05Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-10T03:39:15Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-10T03:39:20Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-10T03:39:35Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-10T03:39:35Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-10T03:40:03Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-10T03:40:03Z CCCF_ED              DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-10T03:41:05Z CCCF_MOUT                                 "Start of exposure 22950005"
+2020-11-10T03:41:05Z CCCF_MOUTP           EXP_INT              /* Intermediate commanding of Exposure
+                                          22950005             /* Exposure identifier
+                                          2020-11-10T03:41:05Z /* Scheduled time
+                                          0001                 /* POD Version
+                                          0003                 /* Intermediate number
+2020-11-10T03:41:05Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-10T03:46:05Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-10T04:29:33Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T04:32:26Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T04:32:55Z PREQ                 02:58:41.87          /* RA of X axis
+                                          -86:33:52.3          /* Declination of X axis
+                                          182:21:55.7          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950050             /* Pointing identifier
+2020-11-10T04:32:55Z MOUTP                SLEW_START           /* Slew Start
+                                          22950050             /* Slew Id
+                                          2020-11-10T04:32:55Z /* Scheduled time
+2020-11-10T04:32:55Z MOUT                                      "Start of slew 22950050, Pointing id = 0"
+2020-11-10T04:33:25Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T04:33:30Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T04:33:35Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T04:33:40Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-10T04:33:53Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950050
+2020-11-10T04:34:51Z MOUTP                SLEW_END             /* Slew End
+                                          22950050             /* Slew Id
+                                          2020-11-10T04:34:51Z /* Scheduled time
+2020-11-10T04:34:51Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950050             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          02:58:41.87          /* RA
+                                          -86:33:52.3          /* Dec
+                                          2020-11-10T04:34:51Z /* scheduled Time
+2020-11-10T04:34:51Z MOUT                                      "Pointing Identifier is 22950050 with duration 3530"
+2020-11-10T04:41:09Z RMU_START                                 /* Start RMU
+2020-11-10T04:46:09Z ED                   AEINT_00             /* Reset RCE Rate Integrator (FCP_AOC_1905)
+2020-11-10T04:56:09Z RMU_STOP                                  /* End RMU
+2020-11-10T05:30:19Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T05:33:12Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T05:33:41Z PREQ                 00:39:22.13          /* RA of X axis
+                                          -86:15:12.6          /* Declination of X axis
+                                          216:38:36.6          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950051             /* Pointing identifier
+2020-11-10T05:33:41Z MOUTP                SLEW_START           /* Slew Start
+                                          22950051             /* Slew Id
+                                          2020-11-10T05:33:41Z /* Scheduled time
+2020-11-10T05:33:41Z MOUT                                      "Start of slew 22950051, Pointing id = 0"
+2020-11-10T05:34:11Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T05:34:16Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T05:34:21Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T05:34:26Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-10T05:34:39Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950051
+2020-11-10T05:35:37Z MOUTP                SLEW_END             /* Slew End
+                                          22950051             /* Slew Id
+                                          2020-11-10T05:35:37Z /* Scheduled time
+2020-11-10T05:35:37Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950051             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          00:39:22.13          /* RA
+                                          -86:15:12.6          /* Dec
+                                          2020-11-10T05:35:37Z /* scheduled Time
+2020-11-10T05:35:37Z MOUT                                      "Pointing Identifier is 22950051 with duration 3530"
+2020-11-10T06:31:05Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T06:33:58Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T06:34:27Z PREQ                 23:08:08.59          /* RA of X axis
+                                          -84:56:02.3          /* Declination of X axis
+                                          238:52:45.9          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950052             /* Pointing identifier
+2020-11-10T06:34:27Z MOUTP                SLEW_START           /* Slew Start
+                                          22950052             /* Slew Id
+                                          2020-11-10T06:34:27Z /* Scheduled time
+2020-11-10T06:34:27Z MOUT                                      "Start of slew 22950052, Pointing id = 0"
+2020-11-10T06:34:57Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T06:35:02Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T06:35:07Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T06:35:25Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950052
+2020-11-10T06:36:23Z MOUTP                SLEW_END             /* Slew End
+                                          22950052             /* Slew Id
+                                          2020-11-10T06:36:23Z /* Scheduled time
+2020-11-10T06:36:23Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950052             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          23:08:08.59          /* RA
+                                          -84:56:02.3          /* Dec
+                                          2020-11-10T06:36:23Z /* scheduled Time
+2020-11-10T06:36:23Z MOUT                                      "Pointing Identifier is 22950052 with duration 3530"
+2020-11-10T06:48:39Z RSOPS                RMU_CAL              /* Recommended mid-time of SOPS window for RMU cal.
+                                          900                  /* Duration of RSOPS window in seconds
+                                          7200                 /* Possible offset in seconds
+2020-11-10T07:31:51Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T07:34:44Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T07:35:13Z PREQ                 00:03:45.12          /* RA of X axis
+                                          -83:17:02.5          /* Declination of X axis
+                                          225:00:19.0          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950053             /* Pointing identifier
+2020-11-10T07:35:13Z MOUTP                SLEW_START           /* Slew Start
+                                          22950053             /* Slew Id
+                                          2020-11-10T07:35:13Z /* Scheduled time
+2020-11-10T07:35:13Z MOUT                                      "Start of slew 22950053, Pointing id = 0"
+2020-11-10T07:35:43Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T07:35:48Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T07:35:53Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T07:36:11Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950053
+2020-11-10T07:37:25Z MOUTP                SLEW_END             /* Slew End
+                                          22950053             /* Slew Id
+                                          2020-11-10T07:37:25Z /* Scheduled time
+2020-11-10T07:37:25Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950053             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          00:03:45.12          /* RA
+                                          -83:17:02.5          /* Dec
+                                          2020-11-10T07:37:25Z /* scheduled Time
+2020-11-10T07:37:25Z MOUT                                      "Pointing Identifier is 22950053 with duration 3530"
+2020-11-10T07:48:39Z R_OBM                                     /* Report and reset the OBM
+2020-11-10T07:48:39Z MOUT                                      "REPORT AND RESET OBM                               "
+2020-11-10T08:32:53Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T08:35:46Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T08:36:15Z PREQ                 01:16:12.51          /* RA of X axis
+                                          -84:12:57.6          /* Declination of X axis
+                                          207:30:06.2          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0043.5               /* Accelerator Time parameter
+                                          090.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950054             /* Pointing identifier
+2020-11-10T08:36:15Z MOUTP                SLEW_START           /* Slew Start
+                                          22950054             /* Slew Id
+                                          2020-11-10T08:36:15Z /* Scheduled time
+2020-11-10T08:36:15Z MOUT                                      "Start of slew 22950054, Pointing id = 0"
+2020-11-10T08:36:26Z MOUT                                      "Execute FCP_AOC_0540 within next 2 hours           "
+2020-11-10T08:36:45Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T08:36:50Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T08:36:55Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T08:37:13Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950054
+2020-11-10T08:38:27Z MOUTP                SLEW_END             /* Slew End
+                                          22950054             /* Slew Id
+                                          2020-11-10T08:38:27Z /* Scheduled time
+2020-11-10T08:38:27Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950054             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          01:16:12.51          /* RA
+                                          -84:12:57.6          /* Dec
+                                          2020-11-10T08:38:27Z /* scheduled Time
+2020-11-10T08:38:27Z MOUT                                      "Pointing Identifier is 22950054 with duration 3530"
+2020-11-10T08:42:57Z MOUTP                CCCF_START           /* Start of conditional commanding for new Exposure
+2020-11-10T08:42:58Z CCCF_ED              DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T08:43:27Z CCCF_ED              DEBPFM00             /* Broadcast Packet mask of OTF
+2020-11-10T08:43:37Z CCCF_ED              GESTAN02             /* IBIS STANDARD MODE
+2020-11-10T08:43:42Z CCCF_PSTREQ          39                   /* Number of science slots for IBIS
+                                          91                   /* Number of science slots for SPI
+                                          11                   /* Number of science slots for JEMX1
+                                          5                    /* Number of science slots for JEMX2
+                                          4                    /* Number of science slots for OMC
+2020-11-10T08:43:57Z CCCF_ED              KEDATA02             /* ISOC JEMX1 Data Taking
+2020-11-10T08:43:57Z CCCF_ED              LEDATA02             /* ISOC JEMX2 Data Taking
+2020-11-10T08:44:25Z CCCF_MOUT                                 "TM Alloc: I 129 S 99 J1 11 J2 5 O 5"
+2020-11-10T08:44:25Z CCCF_ED              DEBPG200             /* Broadcast Packet change of TM allocation
+2020-11-10T08:45:27Z CCCF_MOUT                                 "Start of exposure 22950005"
+2020-11-10T08:45:27Z CCCF_MOUTP           EXP_INT              /* Intermediate commanding of Exposure
+                                          22950005             /* Exposure identifier
+                                          2020-11-10T08:45:27Z /* Scheduled time
+                                          0001                 /* POD Version
+                                          0004                 /* Intermediate number
+2020-11-10T08:45:27Z CCCF_ED              DEBPFU00             /* Broadcast Packet unmask of OTF
+2020-11-10T08:50:27Z MOUTP                CCCF_END             /* End of conditional commanding for new Exposure
+2020-11-10T09:33:55Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T09:36:48Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T09:37:17Z PREQ                 02:43:57.82          /* RA of X axis
+                                          -84:24:46.3          /* Declination of X axis
+                                          186:09:32.3          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950055             /* Pointing identifier
+2020-11-10T09:37:17Z MOUTP                SLEW_START           /* Slew Start
+                                          22950055             /* Slew Id
+                                          2020-11-10T09:37:17Z /* Scheduled time
+2020-11-10T09:37:17Z MOUT                                      "Start of slew 22950055, Pointing id = 0"
+2020-11-10T09:37:47Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T09:37:52Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T09:37:57Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T09:38:02Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-10T09:38:15Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950055
+2020-11-10T09:39:13Z MOUTP                SLEW_END             /* Slew End
+                                          22950055             /* Slew Id
+                                          2020-11-10T09:39:13Z /* Scheduled time
+2020-11-10T09:39:13Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950055             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          02:43:57.82          /* RA
+                                          -84:24:46.3          /* Dec
+                                          2020-11-10T09:39:13Z /* scheduled Time
+2020-11-10T09:39:13Z MOUT                                      "Pointing Identifier is 22950055 with duration 3530"
+2020-11-10T10:34:41Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T10:37:34Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T10:38:03Z PREQ                 04:05:37.46          /* RA of X axis
+                                          -83:48:14.7          /* Declination of X axis
+                                          166:19:28.7          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          Y                    /* Scientific slew
+                                          N                    /* Open loop slew
+                                          22950056             /* Pointing identifier
+2020-11-10T10:38:03Z MOUTP                SLEW_START           /* Slew Start
+                                          22950056             /* Slew Id
+                                          2020-11-10T10:38:03Z /* Scheduled time
+2020-11-10T10:38:03Z MOUT                                      "Start of slew 22950056, Pointing id = 0"
+2020-11-10T10:38:33Z ED                   MEIM-A01             /* ISOC OMC IM_A Command
+2020-11-10T10:38:38Z ED                   MEIMB101             /* ISOC OMC IM_B1 Command
+2020-11-10T10:38:43Z ED                   MEIMB201             /* ISOC OMC IM_B2 Command
+2020-11-10T10:38:48Z ED                   MEIMB301             /* ISOC OMC IM_B3 Command
+2020-11-10T10:39:01Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950056
+2020-11-10T10:39:59Z MOUTP                SLEW_END             /* Slew End
+                                          22950056             /* Slew Id
+                                          2020-11-10T10:39:59Z /* Scheduled time
+2020-11-10T10:39:59Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950056             /* Pointing Id
+                                          22950005             /* Exposure Id
+                                          04:05:37.46          /* RA
+                                          -83:48:14.7          /* Dec
+                                          2020-11-10T10:39:59Z /* scheduled Time
+2020-11-10T10:39:59Z MOUT                                      "Pointing Identifier is 22950056 with duration 20105"
+2020-11-10T11:38:49Z MOUT                                      "End of exposure 22950005"
+2020-11-10T11:38:49Z MOUTP                EXP_END              /* Exposure End
+                                          22950005             /* Exposure Id
+                                          2020-11-10T11:38:49Z /* Scheduled time
+2020-11-10T12:36:18Z ED                   DEBPG200             /* Broadcast Packet Handover flag = 1
+2020-11-10T12:36:47Z AOS_TM               VILSP2               /* Acquisition of TM signal for VILSP2
+2020-11-10T12:36:47Z AOS_TC               VILSP2               /* Acquisition of TC signal for VILSP2
+2020-11-10T12:36:47Z OVERLAP_START        VILSP2               /* 01 Overlap period from station KIRUNA to VILSP2
+                                          KIRUNA               /*
+2020-11-10T12:36:47Z HO_PERIOD_START                           /* HANDOVER PERIOD DURING INSTRUMENT WINDOW - START
+2020-11-10T12:36:47Z RHANDOVER_START      KIRUNA               /* 01 Ground station handover from KIRUNA to VILSP2
+                                          VILSP2               /*
+2020-11-10T12:36:47Z MOUT                                      "Start of Ground Station Handover Window"
+2020-11-10T12:36:47Z HANDOVER_START       KIRUNA               /* Ground station handover from KIRUNA to VILSP2
+                                          VILSP2               /*
+2020-11-10T12:44:16Z MOUT                                      "TM stop KIRUNA                                     "
+2020-11-10T12:44:17Z RSTATION_TC_STOP     KIRUNA               /* End commanding station KIRUNA for TC
+2020-11-10T12:44:17Z RSTATION_TM_STOP     KIRUNA               /* End commanding station KIRUNA for TM
+2020-11-10T12:44:17Z RSTATION_TM_START    VILSP2               /* Start commanding station VILSP2 for TM
+2020-11-10T12:44:17Z RSTATION_TC_START    VILSP2               /* Start commanding station VILSP2 for TC
+2020-11-10T12:44:17Z STATION_TC_STOP      KIRUNA               /* End of commanding station KIRUNA for TC
+2020-11-10T12:44:17Z STATION_TM_STOP      KIRUNA               /* End of commanding station KIRUNA for TM
+2020-11-10T12:44:17Z STATION_TC_START     VILSP2               /* Start of commanding station VILSP2 for TC
+2020-11-10T12:44:17Z STATION_TM_START     VILSP2               /* Start of commanding station VILSP2 for TM
+2020-11-10T12:44:17Z MOUT                                      "TM start VILSP2                                    "
+2020-11-10T12:51:37Z ED                   DEBPG200             /* Broadcast Packet Handover flag = 0
+2020-11-10T12:51:47Z HO_PERIOD_STOP                            /* HANDOVER PERIOD DURING INSTRUMENT WINDOW - STOP
+2020-11-10T12:51:47Z LOS_TC               KIRUNA               /* Loss of TC signal for KIRUNA
+2020-11-10T12:51:47Z OVERLAP_STOP         KIRUNA               /* 01 Overlap period from station VILSP2 to KIRUNA
+                                          VILSP2               /*
+2020-11-10T12:51:47Z LOS_TM               KIRUNA               /* Loss of TM signal for KIRUNA
+2020-11-10T12:51:47Z RHANDOVER_STOP                            /* 01 Ground station handover from KIRUNA to VILSP2
+2020-11-10T12:51:47Z MOUT                                      "End of Ground Station Handover Window"
+2020-11-10T12:51:47Z HANDOVER_STOP                             /* Ground station handover from KIRUNA to VILSP2
+2020-11-10T12:53:39Z ED                   KESAFE02             /* JEM-X1 to SAFE Mode (KESAFE02)
+2020-11-10T12:53:44Z JEM-X1_STOP                               /* JEM-X1 scientific observations must stop
+2020-11-10T12:53:44Z JEM-X2_STOP                               /* JEM-X2 scientific observations must stop
+2020-11-10T12:53:44Z ED                   LESAFE02             /* JEM-X2 to SAFE Mode (LESAFE02)
+2020-11-10T13:36:40Z INSTRUMENT_CLOSE     TM_AND_TC            /* 01 End of observation window
+2020-11-10T13:36:40Z DUMMY_OPEN           TM_AND_TC            /* 02 Start of Dummy Window
+2020-11-10T13:36:40Z IBIS_STOP                                 /* IBIS scientific observations must stop
+2020-11-10T13:36:40Z OMC_STOP                                  /* OMC scientific observations must stop
+2020-11-10T13:36:40Z SPI_STOP                                  /* SPI scientific observations must stop
+2020-11-10T13:36:40Z CRIT_INST_ALT_DESC   59000                /* Critical Instrument Altitude Descending
+2020-11-10T13:36:40Z MOUT                                      "CRIT_INST_ALT_DESC                                 "
+2020-11-10T13:37:40Z ED                   DEBWHI02             /* Assign TM bandwidth for patch & dump (FCP_DHS_1415)
+2020-11-10T16:11:42Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T16:14:35Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T16:15:04Z PREQ                 07:52:00.00          /* RA of X axis
+                                          -30:00:00.0          /* Declination of X axis
+                                          114:03:04.2          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0200.0               /* Accelerator Time parameter
+                                          200.000              /* Rate Max parameter
+                                          N                    /* Engineering slew
+                                          N                    /* Open loop slew
+                                          22950057             /* Pointing identifier
+2020-11-10T16:15:04Z MOUTP                SLEW_START           /* Slew Start
+                                          22950057             /* Slew Id
+                                          2020-11-10T16:15:04Z /* Scheduled time
+2020-11-10T16:15:04Z MOUT                                      "Start of slew 22950057, Pointing id = 0"
+2020-11-10T16:16:02Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950057
+2020-11-10T16:35:27Z MOUTP                SLEW_END             /* Slew End
+                                          22950057             /* Slew Id
+                                          2020-11-10T16:35:27Z /* Scheduled time
+2020-11-10T16:35:27Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950057             /* Pointing Id
+                                                               /* Exposure Id
+                                          07:52:00.00          /* RA
+                                          -30:00:00.0          /* Dec
+                                          2020-11-10T16:35:27Z /* scheduled Time
+2020-11-10T16:35:27Z MOUT                                      "Pointing Identifier is 22950057 with duration 622"
+2020-11-10T16:35:32Z ED                   AESSS_00             /* Start Sun Steering Law (FCP_AOC_0804)
+2020-11-10T16:42:27Z ED                   AEOSL_00             /* Open loop slew (OSL) (FCP_AOC_0518)
+2020-11-10T16:45:20Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 0
+2020-11-10T16:45:49Z PREQ                 07:52:00.00          /* RA of X axis
+                                          -30:00:00.0          /* Declination of X axis
+                                          114:03:40.5          /* Position Angle at end of slew
+                                          Z1                   /* Primary instrument is the Startracker
+                                          0057.0               /* Accelerator Time parameter
+                                          150.000              /* Rate Max parameter
+                                          N                    /* Engineering slew
+                                          N                    /* Open loop slew
+                                          22950058             /* Pointing identifier
+2020-11-10T16:45:49Z MOUTP                SLEW_START           /* Slew Start
+                                          22950058             /* Slew Id
+                                          2020-11-10T16:45:49Z /* Scheduled time
+2020-11-10T16:45:49Z MOUT                                      "Start of slew 22950058, Pointing id = 0"
+2020-11-10T16:46:47Z ED                   DEBPG200             /* Broadcast Packet Pointing id = 22950058
+2020-11-10T16:48:48Z MOUTP                SLEW_END             /* Slew End
+                                          22950058             /* Slew Id
+                                          2020-11-10T16:48:48Z /* Scheduled time
+2020-11-10T16:55:48Z STR_STOP             23000                /* Star Tracker operations must stop
+2020-11-10T16:55:48Z LAST_SLEW_STOP                            /* Latest time to stop slew to perigee att.
+2020-11-10T16:55:48Z RPERIGEE_ENTRY       10:40:00.00          /* 1st perigee attitude right ascension of STR boresight
+                                          -80:00:00.0          /* 1st perigee attitude declination of STR boresight
+                                          069:18:31.8          /* 1st perigee attitude position angle
+                                          09:20:00.00          /* 2nd perigee attitude right ascension of STR boresight
+                                          -30:00:00.0          /* 2nd perigee attitude declination of STR boresight
+                                          103:18:46.8          /* 2nd perigee attitude position angle
+2020-11-10T16:55:48Z MOUTP                POINTING_START       /* Pointing Start
+                                          22950058             /* Pointing Id
+                                                               /* Exposure Id
+                                          07:52:00.00          /* RA
+                                          -30:00:00.0          /* Dec
+                                          2020-11-10T16:55:48Z /* scheduled Time
+2020-11-10T16:55:48Z MOUT                                      "Pointing Identifier is 22950058 with duration 922"
+2020-11-10T16:55:48Z PERIGEE_ENTRY        07:52:00.00          /* Perigee Entry RA
+                                          -30:00:00.0          /* Perigee Entry Dec
+                                          114:03:40.5          /* Perigee Entry Position Angle
+2020-11-10T17:06:10Z MOUT                                      "5 minutes to start of Wheel Bias opportunity       "
+2020-11-10T17:11:10Z DUMMY_CLOSE          TM_AND_TC            /* 02 End of Dummy window
+2020-11-10T17:11:10Z SOPS_OPEN            WHEEL_BIAS           /* 01 Start of special S/C operations - NO wheel biasing
+                                          001                  /* Duration of stable pointing before man. in seconds
+                                          001                  /* Duration of stable pointing after man. in seconds
+2020-11-10T17:12:10Z SOPS_CLOSE           WHEEL_BIAS           /* 01 End of special S/C operations - NO wheel biasing
+2020-11-10T17:12:10Z LOS_CHK_OPEN                              /* 01 Start of pre-LOS status check window
+2020-11-10T17:12:10Z ED                   JEDMP100             /* Report On-board SVM buffers(FCP_SYS_1100/FCP_SYS_1110)
+2020-11-10T17:12:10Z MOUT                                      "LOS_CHK OPEN                                       "
+2020-11-10T17:14:10Z ED                   UEGROF01             /* IREM Ground Link Off (UEGROF01)
+2020-11-10T17:21:48Z ED                   AECGS_00             /* Change Guide Star (FCP_AOC_0529)
+2020-11-10T17:26:24Z MOUT                                      "Imminent Antenna Switch to plus Z Antenna          "
+2020-11-10T17:29:24Z MOUT                                      "Swap to antenna 1 before LOS"
+2020-11-10T17:30:24Z ED                   REANTP02             /* Select RFDN SWA Parallel Position (FCP_RFS_1100)
+2020-11-10T17:31:24Z MOUT                                      "Swap to 1"
+2020-11-10T17:37:09Z MOUT                                      "TM stop VILSP2                                     "
+2020-11-10T17:37:10Z LOS_CHK_CLOSE                             /* 01 End of pre-LOS status check window
+2020-11-10T17:37:10Z STATION_TC_STOP      VILSP2               /* End commanding station VILSP2 for TC
+2020-11-10T17:37:10Z STATION_TM_STOP      VILSP2               /* End commanding station VILSP2 for TM
+2020-11-10T17:37:10Z LOS_TC               VILSP2               /* Loss of TC signal for VILSP2
+2020-11-10T17:37:10Z LOS_TM               VILSP2               /* Loss of TM signal for VILSP2
+2020-11-10T17:37:10Z MOUT                                      "LOS_CHK CLOSE                                      "
+2020-11-10T18:26:13Z PSF_STOP                                  /* End of PSF
