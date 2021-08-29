@@ -1,0 +1,12 @@
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":"/opt/application3pp/perl5/lib
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":"/opt/application3pp/openssl/lib
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":"/opt/application3pp/ncurses6/lib
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":"/opt/application3pp/readline/lib
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":"/opt/application3pp/tcl8.5.19/lib
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":"/opt/application3pp/tk8.5.19/lib
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":"/opt/application3pp/curl-7.60.0/lib
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":"/opt/application3pp/tcl8.5.19/lib/tcl8.5/sqlite3
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":"/opt/application3pp/sqlite/lib
+setenv LD_LIBRARY_PATH $LD_LIBRARY_PATH":"/opt/application3pp/gdbm-1.13/lib
+
+alias python2.7.13 /opt/application3pp/Python2.7.13/bin/python
