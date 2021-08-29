@@ -1,0 +1,10 @@
+README.md
+setup.py
+satsim/__init__.py
+satsim/exceptions.py
+satsim/simulator.py
+satsim.egg-info/PKG-INFO
+satsim.egg-info/SOURCES.txt
+satsim.egg-info/dependency_links.txt
+satsim.egg-info/requires.txt
+satsim.egg-info/top_level.txt
