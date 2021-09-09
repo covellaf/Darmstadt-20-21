@@ -1,0 +1,12 @@
+This work is intended to optimise the work of some engineers of the FCT by  automating the telemetry analysis for the AOCS subsystem in particular. 
+This won’t be a real-time operation, but it’s very useful in assessing the performance of a new software patch which is to be loaded onboard.
+
+The software processes, organizes and displays some sets of telemetry parameters in order to allow the engineers to perform an analysis of the data retrieved 
+from the simulated spacecraft and plan some new operation command sequences to face the need for a more efficient and reliable procedure to slew the spacecraft. 
+
+In order to introduce new slewing sequences that use the gyroscopes onboard (previously the gyroscopes were not active for slewing) a change to the onboard 
+software has to be performed. Pandas was used to perform some smart post-processing and convert the input data in a data-frame structure. 
+Matplotlib was used to display the results and save the .png images. On the plots, vertical lines are also shown to underline the start and end of slew 
+and when applicable, the abort of the slew abort, which corresponds to the moment the slew abort command is received (which doesn’t happen in every simulation).
+
+
