@@ -1,0 +1,5 @@
+The software offers a simple and intuitive tool to generate a particular or a series of TPF(s) to be loaded on the manual stack, which can be used to quickly and safely recover the planned routine operations in case of commanding interruption (for instance in case of communications errors). 
+The Automatic mode is intended to be called by the IMCS Mission Planning System to automatically generate all relevant TPFs for an entire revolution and version number at the time the revolution is planned. 
+The tool can be also used in an interactive mode, in case a certain sequence of commands is not uplinked successfully due to communication issues or to similar reasons. 
+In such a case it might be useful to easily generate and retrieve the TPF corresponding to the missed occurrence of the sequence of interest, containing the correct values for the commands’ parameters. 
+Lastly, the application can be used to retrieve any past or future sequence, for other purposes, provided that the associated APF and EPO files are available.
